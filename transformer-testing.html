@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transformer Testing - QnA</title>
+    <meta name="description" content="Transformer Testing, , , , , , , 0, My worst experience in testing and commissioning power transformers | EEP, electrical-engineering-portal.com, 920 x 616, jpeg, , 20, transformer-testing, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Transformer Testing - QnA" />
+    <meta property="og:description" content="Transformer Testing, , , , , , , 0, My worst experience in testing and commissioning power transformers | EEP, electrical-engineering-portal.com, 920 x 616, jpeg, , 20, transformer-testing, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Transformer Testing - QnA" />
+    <meta name="twitter:description" content="Transformer Testing, , , , , , , 0, My worst experience in testing and commissioning power transformers | EEP, electrical-engineering-portal.com, 920 x 616, jpeg, , 20, transformer-testing, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://topminded.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://topminded.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://topminded.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://topminded.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://topminded.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://topminded.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://topminded.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://topminded.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Transformer Testing</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">jerryalastra76</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Transformer+Testing" alt="Transformer Testing">
+                    </div>
+                    <p></p>
+                    <p>How to test a transformer​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-to-test-a-transformer%e2%80%8b">1.
+                                            How to test a transformer​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-is-copper-loss-in-transformer-testing">2.
+                                            What is copper loss in transformer testing?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#enumerate-in-chronological-order-the-procedure-in-testing-capacitor-resistor-diode-and-transformer-a-procedure-in-testing-capacitor-1-4b-procedure-in-testing-resistor-5-8c-procedure-in-testing">3.
+                                            enumerate in chronological order the procedure in testing capacitor, resistor, diode and transformer.A. procedure in testing capacitor (1-4B. procedure in testing resistor (5-8)C. procedure in testing diode (9-13)D. procedure in testing transformer (14-17)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ii-a-short-answer-test-identify-the-transformation-of-energy-in-the-givensituation-6-8-drying-your-hair-with-blower9-10-using-personal-computer%e2%80%8b">4.
+                                            II.A. Short Answer test : Identify the transformation of energy in the givensituation.6-8. Drying your hair with blower9-10.Using personal computer​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pa-answer-po-thank-you-nalang-potransform-the-sentences-in-passive-voice-to-sentences-in-active-voice-the-comet-was-viewed-by-the-students___________________________________________________">5.
+                                            pa answer po :&gt; Thank you nalang po!
+Transform the sentences in passive voice to sentences in active voice. 
+The comet was viewed by the students
+_________________________________________________________
+. Before the test started, instructions were given by the teacher. 
+_________________________________________________________
+ The house was remodeled by the owners.
+_________________________________________________________
+manga matatalino jaan oh pa answer naman po :&lt;&lt;</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#let-us-check-your-understanding-by-answeringthe-test-yourself-below-are-you-ready-you-may-start-now-test-yourself-1-transform-each-function-into-the-form-offx-ax-h%c2%b2k1-fx-x%c2%b2">6.
+                                            Let us check your understanding by answeringthe Test Yourself below.Are you ready? You may start now.Test Yourself 1. Transform each function into the form off(x)= a(x-h)²+k1. f(x) = x² – 3x - 12. f(x) = x² - 6x + 83. f(x) = -x + x + 54. f(x) = 4x + 4x + 1​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-plays-a-critical-role-in-human-reproductive-and-sexuality-2-the-testes-and-ovary-are-developed-from_____wherein-the-chromosomal-and-sex-is-determined-during-fertilization-3-testes-produce_____a-ho">7.
+                                            1.Plays a critical role in human reproductive and sexuality.2.The testes and ovary are developed from_____wherein the  chromosomal and sex is determined during fertilization.3.testes produce_____,a hormone that brings out physical changes that transform a boy into an adult male4&amp;5.Ovary produces_____ and______, hormones that stimulate the development of female secondary sex characteristic.A.ProgestoroneB.Endocrine systemC.Embryonic handsD.EstrogenE.Testosterone​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#it-is-chosen-when-the-parameter-is-larger-than-or-smaller-than-the-value-of-the-null-hypothesis-a-two-sided-testc-parametric-test-b-one-sided-testd-non-parametric-testthis-assumes-that-th">8.
+                                            It is chosen when the parameter is larger than or smaller than the value of the null hypothesis.A. two-sided test				C. Parametric test B. one-sided test				D. Non-parametric test	This assumes that there is change, difference, relationship, or the independent variable has an effect on the dependent variable.A. Null hypothesis				C. Test statistic	B. Alternative hypothesis			D. Hypothesis testingThis assumes that there is no change, no difference, no relationship, or the in dependent variable has no effect on the dependent variable.A. Null hypothesis				C. Test statistic	B. Alternative hypothesis			D. Hypothesis testingThey worked in producing goods. A. Construction		B. Manufacturing		C. Chemist 	D. InvestorsThey worked with the composition, structure, and properties of substances and with the transformations that they undergoA. Construction		B. Manufacturing		C. Chemist 	D. Investors​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#romans-122do-not-conform-to-the-pattern-of-this-world-but-be-transformed-by-the-renewing-of-your-mind-then-you-will-be-able-to-test-and-approve-what-god%e2%80%99s-will-is%e2%80%94his-good-pleasing">9.
+                                            Romans 12:2Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#transform-the-following-quadratic-function-to-f-x-a-x-%c2%b2-bx-c-by-following-each-test-below-%e2%80%8b">10.
+                                             transform the following quadratic function to f x = a x ²+ bx + c by following each test below ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-how-to-test-a-resistor2-how-to-test-a-capacitor3-how-to-test-a-transformer4-how-to-test-a-diode%e2%80%8b">11.
+                                            1. How to test a resistor?2. How to test a capacitor?3. How to test a transformer?4. How to test a diode?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#test-yourself-1-transform-each-function-into-the-form-of-ffx-afx-%e2%80%93-k-1-fx-x-x-2x-1-2-fx-x2-6x-8-3-fx-2-4x-5-fx-4x-4x-1%e2%80%8b">12.
+                                            Test Yourself 1. Transform each function into the form of ffx)= afx – )? + k. 1. f(x) = x = x - 2x-1 2. f(x) = x2 - 6x + 8 3. f(x) = -*2 + 4x + 5 #. f(x) = 4x + 4x + 1​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#romans-122do-not-conform-to-the-pattern-of-this-world-but-be-transformed-by-the-renewing-of-your-mind-then-you-will-be-able-to-test-and-approve-what-god%e2%80%99s-will-is%e2%80%94his-good-pleasing">13.
+                                            Romans 12:2Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-is-the-hormone-produced-by-male-in-its-testes-that-transform-a-boy-into-an-adult-malea-androgen-b-estrogenc-progesteroned-testosterone%e2%80%8b">14.
+                                            What is the hormone produced by male in its testes that transform a boy into an adult male?A Androgen B. EstrogenC. ProgesteroneD. Testosterone​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#post-testactivity-1-voice-it-outdirections-transform-the-sentence-into-active-or-passive-voice-paki-sagut-po-at-paki-sagut-na-rin-po-yung-iba-ko-pong-tanung-kasi-po-wala-pa-pong-sumagut-thank-yo">15.
+                                            POST TESTActivity 1: Voice it Out!Directions: Transform the sentence into active or passive voice.Paki sagut po, at paki sagut na rin po yung iba ko pong tanung kasi po wala pa pong sumagut. !Thank you po! ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#testthe-letter-of-your-best-answer-on-the-space-provided-before-the-num1-what-is-always-produced-during-energy-transformationa-lightb-heatc-soundd-electricity2-the-head-of-a-matchstick-is-coat">16.
+                                            -TESTthe letter of your best answer on the space provided before the num1. What is always produced during energy transformation?A. lightB. heatC. soundD. electricity2. The head of a matchstick is coated with phosphorous. When it iwhat form of energy is being transformed?A. chemical to heat/radiantB. mechanical to heat/souC. chemical to mechanical/heatbent to​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#test-v-transform-each-equation-into-quadratic-equation-then-solve-the-resulting-equation-using-anymethod-and-check-afterwards-111-1-752-8y%e2%80%8b">17.
+                                            Test V. Transform each equation into quadratic equation. Then solve the resulting equation using anymethod and check afterwards.1+11. } + 1 = 752.8y​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#quarter-test-questions-in-grade-8-science-1-what-digestive-organ-mechanically-and-chemically-transforms-bolus-into-chime%e2%80%8b">18.
+                                            Quarter Test Questions in Grade 8-Science 1. What digestive organ mechanically and chemically transforms bolus into chime​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#test-have-you-learned-directions-identify-what-is-being-described-in-each-of-the-following-sentence-solid-it-is-a-state-of-matter-in-which-the-particles-are-held-to-1-es-2-adding-or-removing-thi">19.
+                                            TEST: Have You Learned? Directions, Identify what is being described in each of the following sentence Solid It is a state of matter in which the particles are held to 1. es. 2. Adding or removing this can transform matter from 3. Shape and color are examples of this type of proper 4. It is the ability of a substance to burn. 5. It is the ratio of the mass of a material to its volume 6. It refers to the transformation of a solid into a liquic 7. When this occurs, the composition of matter is cha 8. It is dependent on the kind or quality of matter. 9. It is the transformation of a gas into a liquid. 10. It is dependent on the quantity of matter hothorach of the following is a shominal channe or anhysical chane​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-independent-activity-1-consists-of-5-item-testtransform-myselfif-the-quarratir-equation-is-not-in-standard-form-transform-into-ax2-bx-c-o-and-determine-ule-vaiue-oi-a-b-and-c-corceq">20.
+                                            A. Independent Activity 1 (consists of 5-item test)
+Transform Myself
+if the quarratir equation is not in standard form, transform into ax2 + bx + c
+- O and determine ule vaiue oí a, b, and c.
+Cor
+c
+Equation
+a
+b
+Quadratic Equation in
+standard form
+Cor
+1.
+1. 7* - 12 = *
+2. 7x - 4 + 4 x = 0
+3. 25 - 10.x = -x
+4. 5x + 4 = 2x2
+5. x2 = -4x + 20</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#d-if-i-pass-the-test-then-i-study-for-numbers-19-and-20-write-your-own-simple-sentence-given-the-picture-at-the-right-and-transform-the-simple-sentence-into-an-equivalent-if-then-statement-please">21.
+                                            D. If I pass the test, then I study. For numbers 19 and 20. Write your own simple sentence given the picture at the right and transform the simple sentence into an equivalent if-then statement (Please follow the correct usage of grammar and subject-verb agreement)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#test-lv-list-at-least-two-appliance-or-object-found-in-your-household-that-produce-energy-draw-an-illustration-which-shows-energy-is-transformation-an-example-is-done-for-you%e2%80%8b">22.
+                                            Test lV.  List at least two appliance or object found in your household that produce energy. Draw an illustration which shows energy is transformation. An example is done for you​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#checking-your-understandingdirections-fill-in-the-correct-energy-form-in-each-of-the-boxes-below-to-show-the-energytransformation-of-a-light-bulb-and-a-microwave-oven-a-licht-puth-on-metrob-ot">23.
+                                            CHECKING YOUR UNDERSTANDING
+Directions: Fill in the correct energy form in each of the boxes below to show the energy
+transformation of a light bulb and a microwave oven.
+A.
+Licht Puth On Metro
+B.
+O
+Television Tubeteg vasler sanble sabia
+un a
+nu
+POST TEST
+ona</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-5kva-2400-120240-volt-distribution-transformer-when-given-a-short-circuit-test-had-94-2-volts-applied-with-rated-current-flowing-in-the-short-circuited-wiring-what-is-the-per-unit-impedance-of-th">24.
+                                            A 5kva, 2400-120/240 volt distribution transformer when given a short circuit test had 94.2 volts applied with rated current flowing in the short circuited wiring. what is the per unit impedance of the transformer</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#test-transform-the-given-equation-in-standard-form-then-identify-the-a-b-c-and-solve-for-the-roots-use-the-back-page-for-your-answers-with-solution-1-x%c2%b2-12-8x-0-2-2m-8%c2%b2-0-3">25.
+                                            Test : Transform the given equation in standard form then identify the a, b, c and solve for the roots. Use the back page for your answers with solution, 1. x² + 12 + 8x = 0 2. (2m-8)² = 0 3. 5x² - 10x = 2​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-to-test-transformer-make-a-flowchartplls-po-kailangan-ko-talaga-to%e2%80%8b">26.
+                                            how to test transformer make a flowchartplls po kailangan ko talaga to​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#21-in-testing-a-non-%e2%80%93-polarized-capacitor-the-needle-of-the-tester-deflects-and-stays-at-zero-resistance-mark-means-that-the-capacitor-defective-is-_________-22-when-the-secondary-winding">27.
+                                            21. In testing a non – polarized capacitor the needle of the tester deflects and stays at zero resistance mark means that the capacitor (defective) is _________.22. When the secondary winding has more turns than the primary then it is a __________ transformer23. In testing a capacitor, when the needle does not deflect toward zero but did not return fully to its idle position and remained stationary at a point then it is an/a ___________ capacitor (defective)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-why-do-we-need-to-test-a-transistor-how-do-you-test-a-transistor2-what-are-you-going-to-do-to-check-the-continuity-of-a-transformer%e2%80%8b">28.
+                                            1.why do we need to test a transistor ? how do you test a transistor?2.what are you going to do to check the continuity of a transformer?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#transform-the-following-sentences-into-mathematical-equation-1-the-number-y-is-equal-to-the-sum-of-twice-of-a-and-b2-the-weight-of-a-rabbit-w-is-atleast-1-2-kg-3-the-maximum-score-of-the-test-x">29.
+                                            transform the following sentences into mathematical equation 1. The number y is equal to the sum of twice of a and b2.the weight of a rabbit (w) is atleast 1.2 kg. 3.The maximum score of the test (x) is thirty. 4.The minimum wage in agricultural sector in laguna (L) is php 30​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#romans-122do-not-conform-to-the-pattern-of-this-world-but-be-transformed-by-the-renewing-of-your-mind-then-you-will-be-able-to-test-and-approve-what-god%e2%80%99s-will-is%e2%80%94his-good-pleasing">30.
+                                            Romans 12:2Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.GUYS LAST BIBLE VERSE NO POINT NAKO​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="how-to-test-a-transformer%e2%80%8b">
+                            1. How to test a transformer​</h2><br />
+                        <p><strong>Four </strong><strong>Methods </strong><strong>to </strong><strong>test </strong><strong>the </strong><strong>Transformer</strong></p><p></p><p><strong>1. Turns Ratio Testing</strong></p><p>Turns ratio transformer testing is commonly used to ensure that the winding ratio between the primary and secondary coils are aligned to recommended specifications. This type of transformer testing also ensures the transformer will provide either step-up or step-down voltage. A step-down transformer, for instance, comprised of 100 primary turns and 10 secondary turns will work to reduce the voltage by a factor of 10 — corresponding to the secondary coil — while multiplying the current by 10 as well.</p><p></p><p><strong>2. Insulation Resistance Testing</strong></p><p>Insulation resistance transformer testing, also known as the Megger test, is used to determine the quality of insulation within the transformer itself. These tests are conducted with a megohmmeter, one of the necessary transformer test instruments, that operates similar to a multi-meter. In order to pass the test, the insulation of a transformer must be determined to have a greater resistance than defined by international standards for that transformer type. If it measures any lower it could signify an issue with the insulation which may require replacement.</p><p></p><p><strong>3. Power Factor Testing</strong></p><p>Power factor transformer testing is the process wherein the power loss of the insulation system is tested by measuring the angel the resulting current of power that occurs when AC voltage is applied. For the test results to be optimal, the angle of the current should measure 90 degrees; however, more often than not, insulation is never perfect. As a rule, the closer to 90 that the current is, the better the insulation is.</p><p></p><p>This test is completed with a power factor test kit, and it can be completed regularly throughout the life of the transformer. This can help detect deteriorating or malfunctioning insulation over time and give you an idea of when the transformer will need to be replaced.</p><p></p><p><strong>4. Resistance Testing</strong></p><p>This type of transformer testing once a transformer has been left to settle at the same temperature of the surrounding air. The reason for this is to check for any differences between the opens and windings within the transformer. This helps ensure that all the circuits are still wired and connected correctly. This test is conducted using an ohmmeter.</p><p></p><p><strong>H</strong><strong>ow to test the </strong><strong>Transformer:</strong></p><p></p><p><strong>To test your transformer, simply touch the red and black pins of your ohmmeter to the opposite ends of the transformer's wiring. Read the display and compare the resistance on your ohmmeter to the resistance stated on the transformer's data sheet.</strong></p><p></p><p><strong>correct </strong><strong>me </strong><strong>if </strong><strong>I'm </strong><strong>wrong </strong><strong>thank </strong><strong>you</strong></p><p></p><p></p><p><strong>#</strong><strong>C</strong><strong>a</strong><strong>r</strong><strong>r</strong><strong>y</strong><strong>OnLearning</strong></p><br />
+                                            <h2 class="ez-toc-section" id="what-is-copper-loss-in-transformer-testing">
+                            2. What is copper loss in transformer testing?</h2><br />
+                        Often given to heat produced by electrical currents <br />
+                                            <h2 class="ez-toc-section" id="enumerate-in-chronological-order-the-procedure-in-testing-capacitor-resistor-diode-and-transformer-a-procedure-in-testing-capacitor-1-4b-procedure-in-testing-resistor-5-8c-procedure-in-testing">
+                            3. enumerate in chronological order the procedure in testing capacitor, resistor, diode and transformer.A. procedure in testing capacitor (1-4B. procedure in testing resistor (5-8)C. procedure in testing diode (9-13)D. procedure in testing transformer (14-17)​</h2><br />
+                        <p><strong>Answer:</strong></p><p>A.</p><p></p><p>CORRECT ME IF I'M WRONG</p><br />
+                                            <h2 class="ez-toc-section" id="ii-a-short-answer-test-identify-the-transformation-of-energy-in-the-givensituation-6-8-drying-your-hair-with-blower9-10-using-personal-computer%e2%80%8b">
+                            4. II.A. Short Answer test : Identify the transformation of energy in the givensituation.6-8. Drying your hair with blower9-10.Using personal computer​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1)The Bottom Line. Neither just air-drying nor just blow-drying is healthy for your hair. </p><p>2)Personal computeris used for Work with word processing, Internet communications,</p><p></p><p><strong>Explanation:</strong></p>#i hope its help po<br />
+                                            <h2 class="ez-toc-section" id="pa-answer-po-thank-you-nalang-potransform-the-sentences-in-passive-voice-to-sentences-in-active-voice-the-comet-was-viewed-by-the-students___________________________________________________">
+                            5. pa answer po :&gt; Thank you nalang po!
+Transform the sentences in passive voice to sentences in active voice. 
+The comet was viewed by the students
+_________________________________________________________
+. Before the test started, instructions were given by the teacher. 
+_________________________________________________________
+ The house was remodeled by the owners.
+_________________________________________________________
+manga matatalino jaan oh pa answer naman po :&lt;&lt;</h2><br />
+                        <p><strong>Answer:</strong></p><p>The students was viewing the comet.</p><p>The teacher gave the instructions before starting the test.</p><p>The owners was remodeling the house.</p><p></p><p></p><p><strong>PKJL</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="let-us-check-your-understanding-by-answeringthe-test-yourself-below-are-you-ready-you-may-start-now-test-yourself-1-transform-each-function-into-the-form-offx-ax-h%c2%b2k1-fx-x%c2%b2">
+                            6. Let us check your understanding by answeringthe Test Yourself below.Are you ready? You may start now.Test Yourself 1. Transform each function into the form off(x)= a(x-h)²+k1. f(x) = x² – 3x - 12. f(x) = x² - 6x + 83. f(x) = -x + x + 54. f(x) = 4x + 4x + 1​</h2><br />
+                        <p><strong>Answer:</strong></p><p></p><p>number 1 muna isasagut ko nasa comment section ko ilalagay math din yung gingawa ko eh</p><p>Step-by-step explanation:</p><p>f(x) = x² - 3x - 1 We will start by writing this in “y = form”</p><p></p><p>y = x² - 3x-1 and now we will switch the variables making the new y be the inverse.</p><p></p><p>x = y^2 - 3y - 1 and now we will solve for y</p><p></p><p>x + 1 + 9/4 = y^2 + 3y + 9/4</p><p></p><p>x + 3.25 = (y + 3/2)^2</p><p></p><p>+-SR(x + 3.25) = y + 3/2</p><p></p><p>-3/2 +- SR (x + 3.25) = y</p><p></p><p>f(-1)(x) = -3/2 +- SR(x + 3.35)</p><br />
+                                            <h2 class="ez-toc-section" id="1-plays-a-critical-role-in-human-reproductive-and-sexuality-2-the-testes-and-ovary-are-developed-from_____wherein-the-chromosomal-and-sex-is-determined-during-fertilization-3-testes-produce_____a-ho">
+                            7. 1.Plays a critical role in human reproductive and sexuality.2.The testes and ovary are developed from_____wherein the  chromosomal and sex is determined during fertilization.3.testes produce_____,a hormone that brings out physical changes that transform a boy into an adult male4&amp;5.Ovary produces_____ and______, hormones that stimulate the development of female secondary sex characteristic.A.ProgestoroneB.Endocrine systemC.Embryonic handsD.EstrogenE.Testosterone​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.C</p><p>2.B</p><p>3.E</p><p>4.D</p><p>5.À</p><p>4 and 5 can be interchange</p><p><strong>Explanation:</strong></p><p>Sana makatulong</p><br />
+                                            <h2 class="ez-toc-section" id="it-is-chosen-when-the-parameter-is-larger-than-or-smaller-than-the-value-of-the-null-hypothesis-a-two-sided-testc-parametric-test-b-one-sided-testd-non-parametric-testthis-assumes-that-th">
+                            8. It is chosen when the parameter is larger than or smaller than the value of the null hypothesis.A. two-sided test				C. Parametric test B. one-sided test				D. Non-parametric test	This assumes that there is change, difference, relationship, or the independent variable has an effect on the dependent variable.A. Null hypothesis				C. Test statistic	B. Alternative hypothesis			D. Hypothesis testingThis assumes that there is no change, no difference, no relationship, or the in dependent variable has no effect on the dependent variable.A. Null hypothesis				C. Test statistic	B. Alternative hypothesis			D. Hypothesis testingThey worked in producing goods. A. Construction		B. Manufacturing		C. Chemist 	D. InvestorsThey worked with the composition, structure, and properties of substances and with the transformations that they undergoA. Construction		B. Manufacturing		C. Chemist 	D. Investors​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.d 2.a 3.a 4.c 5.b yan po anser ko</p><p><strong>Answer:</strong></p><p>1.b</p><p>2.a</p><p>3.c</p><p>4.d</p><p>5.d</p><p><strong>Step-by-step explanation:</strong></p>pa brainlest po pls<p></p><p></p><p></p>#carryonlearning<br />
+                                            <h2 class="ez-toc-section" id="romans-122do-not-conform-to-the-pattern-of-this-world-but-be-transformed-by-the-renewing-of-your-mind-then-you-will-be-able-to-test-and-approve-what-god%e2%80%99s-will-is%e2%80%94his-good-pleasing">
+                            9. Romans 12:2Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>AMEN</p><p></p><p><strong>Explanation:</strong></p><p>btw tnx sa points</p><br />
+                                            <h2 class="ez-toc-section" id="transform-the-following-quadratic-function-to-f-x-a-x-%c2%b2-bx-c-by-following-each-test-below-%e2%80%8b">
+                            10.  transform the following quadratic function to f x = a x ²+ bx + c by following each test below ​</h2><br />
+                        <p><strong>Answer:</strong></p>TRANSFORMING THE GIVEN INTO THE STANDARD FORM OF QUADRATIC FUNCTION<p></p>Solution1. [tex]\red{\boxed{f (x) = 5 (x - 2)^2 + 2}}[/tex]<p></p><p>a. Expand the square of the binomial.</p><p>[tex]\red{\boxed{f (x) = 5 (x - 2)^2 + 2}}[/tex]</p><p>[tex]\red{\boxed{f (x) = 5 (x - 2) (x - 2) + 2}}[/tex]</p><p>[tex]\red{\boxed{f (x) = 5 (x^2 - 4x + 4) + 2}}[/tex]</p><p></p><p>b. Multiply the result by the value of a</p><p>[tex]\red{\boxed{f (x) = 5 (x^2) + 5 (- 4x) + 5(4) + 2}}[/tex]</p><p></p><p>[tex]\red{\boxed{f (x) = 5x^2 - 20x + 20 + 2}}[/tex]</p><p></p><p>c. Combine similar terms.</p><p>[tex]\red{\boxed{f (x) = 5x^2 - 20x + 20 + 2}}[/tex]</p><p>[tex]\green{\boxed{f (x) = 5x^2 - 20x + 22}}[/tex]</p><p></p>2. [tex]\purple{\boxed{f (x) = -3 (x + 1)² - 4}}[/tex]<p></p><p>a. Expand the square of the binomial.</p><p>[tex]\purple{\boxed{f (x) = -3 (x + 1)² - 4}}[/tex]</p><p>[tex]\purple{\boxed{f (x) = -3 (x + 1) (x + 1) - 4}}[/tex]</p><p>[tex]\purple{\boxed{f (x) = -3 (x² + 2x + 1) - 4}}[/tex]</p><p></p><p>b. Multiply the result by the value of a.</p><p>[tex]\purple{\boxed{f (x) = -3 (x²) - 3 (2x) - 3 (1) - 4}}[/tex]</p><p>[tex]\purple{\boxed{f (x) = -3x² - 6x - 3 - 4}}[/tex]</p><p></p><p>c. Combine similar terms.</p><p>[tex]\purple{\boxed{f (x) = -3x² - 6x - 3 - 4}}[/tex]</p><p>[tex]\green{\boxed{f (x) = -3x² - 6x - 7}}[/tex]</p><p></p><p>#CARRYONLEARNING</p><br />
+                                            <h2 class="ez-toc-section" id="1-how-to-test-a-resistor2-how-to-test-a-capacitor3-how-to-test-a-transformer4-how-to-test-a-diode%e2%80%8b">
+                            11. 1. How to test a resistor?2. How to test a capacitor?3. How to test a transformer?4. How to test a diode?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.<strong> How to test a resistor?</strong></p><p>There are two ways of testing a resistor: using an analog or digital multimeter. Normally if a resistor fails they will either increase in value or open circuit. You can check the resistor resistance by selecting the ohmmeter range in the analog and digital multimeter. If the resistor is in circuit, you will generally have to remove the resistors in  the board so you are testing only the resistor value and not the other components in the circuit.</p><p>2.<strong>How to test a capacitor?</strong></p><p>to test a Capacitor and find out whether the capacitor is working properly or it is a defective one. A Capacitor is an Electronics/Electrical component that stores energy in the form of Electric Charge. Capacitors are often used in electronics circuit boards or few electrical appliances and perform a variety of functions.</p><p>3.<strong>How to test a transformer?</strong></p><p>To test your transformer, simply touch the red and black pins of your ohmmeter to the opposite ends of the transformer's wiring. Read the display and compare the resistance on your ohmmeter to the resistance stated on the transformer's data sheet.</p><p>4. <strong>How to test a diode?​</strong></p><p>There are many checks we can do to see if a diode is functioning the way it should. We will use and exploit the characteristics and behaviors that a diode should show if it is good and, in thus doing so, determine whether is good or defective.</p><p>A very good test you can do is to check a diode with your multimeter set to the ohmmeter setting.
+</p><p>
+This is a simple test we can do to check whether it is good, open, or shorted.
+So we take the ohmmeter and place it across the leads of the diode. The orientation is very important.</p><p></p><p><strong></strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="test-yourself-1-transform-each-function-into-the-form-of-ffx-afx-%e2%80%93-k-1-fx-x-x-2x-1-2-fx-x2-6x-8-3-fx-2-4x-5-fx-4x-4x-1%e2%80%8b">
+                            12. Test Yourself 1. Transform each function into the form of ffx)= afx – )? + k. 1. f(x) = x = x - 2x-1 2. f(x) = x2 - 6x + 8 3. f(x) = -*2 + 4x + 5 #. f(x) = 4x + 4x + 1​</h2><br />
+                        <p><strong>Answer:</strong></p><p>tAkte yan anong klase yan ayusin mo bubu mo</p><br />
+                                            <h2 class="ez-toc-section" id="romans-122do-not-conform-to-the-pattern-of-this-world-but-be-transformed-by-the-renewing-of-your-mind-then-you-will-be-able-to-test-and-approve-what-god%e2%80%99s-will-is%e2%80%94his-good-pleasing">
+                            13. Romans 12:2Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.​</h2><br />
+                        <p>Proverbs 3:5</p><p></p><p>Trust the LORD with all your heart and not by your own understanding.</p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="what-is-the-hormone-produced-by-male-in-its-testes-that-transform-a-boy-into-an-adult-malea-androgen-b-estrogenc-progesteroned-testosterone%e2%80%8b">
+                            14. What is the hormone produced by male in its testes that transform a boy into an adult male?A Androgen B. EstrogenC. ProgesteroneD. Testosterone​</h2><br />
+                        <p><strong>Answer:</strong></p><p>B po correct anwer </p><p><strong>Explanation:</strong></p><p>ihipe its help</p><p></p>#CARRY ON LEARNING#❣️<p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="post-testactivity-1-voice-it-outdirections-transform-the-sentence-into-active-or-passive-voice-paki-sagut-po-at-paki-sagut-na-rin-po-yung-iba-ko-pong-tanung-kasi-po-wala-pa-pong-sumagut-thank-yo">
+                            15. POST TESTActivity 1: Voice it Out!Directions: Transform the sentence into active or passive voice.Paki sagut po, at paki sagut na rin po yung iba ko pong tanung kasi po wala pa pong sumagut. !Thank you po! ​</h2><br />
+                        <p><strong>1. A letter is received by her.
+</strong></p><p><strong>2. My mom baked the cookies.
+</strong></p><p><strong>3. Happiness is brought by children.
+</strong></p><p><strong>4. The movie was viewed by the students at home.
+</strong></p><p><strong>5. The officials signed the Memorandum of Agreement.
+</strong></p><p><strong>6. Hot arrozcaldo was given by Lolo Danny to our neighbors.
+</strong></p><p><strong>7. The secret was kept by Jocelyn for a long time.
+</strong></p><p><strong>8. The boys repaired some wooden chairs.
+</strong></p><p><strong>9. The couple witnessed the beautiful sunset.
+</strong></p><p><strong>10. English grammar is studied by us.</strong></p><br />
+                                            <h2 class="ez-toc-section" id="testthe-letter-of-your-best-answer-on-the-space-provided-before-the-num1-what-is-always-produced-during-energy-transformationa-lightb-heatc-soundd-electricity2-the-head-of-a-matchstick-is-coat">
+                            16. -TESTthe letter of your best answer on the space provided before the num1. What is always produced during energy transformation?A. lightB. heatC. soundD. electricity2. The head of a matchstick is coated with phosphorous. When it iwhat form of energy is being transformed?A. chemical to heat/radiantB. mechanical to heat/souC. chemical to mechanical/heatbent to​</h2><br />
+                        <p><strong>Answer:</strong></p><p>number 1 my answer is leter d </p><p><strong>Answer:</strong></p><p>1. B. heat </p><p></p><p>2.  A. chemical to heat/radiant</p><br />
+                                            <h2 class="ez-toc-section" id="test-v-transform-each-equation-into-quadratic-equation-then-solve-the-resulting-equation-using-anymethod-and-check-afterwards-111-1-752-8y%e2%80%8b">
+                            17. Test V. Transform each equation into quadratic equation. Then solve the resulting equation using anymethod and check afterwards.1+11. } + 1 = 752.8y​</h2><br />
+                        <p><strong>Answer:</strong></p><p>ayusin mo muna yung equation mo</p><br />
+                                            <h2 class="ez-toc-section" id="quarter-test-questions-in-grade-8-science-1-what-digestive-organ-mechanically-and-chemically-transforms-bolus-into-chime%e2%80%8b">
+                            18. Quarter Test Questions in Grade 8-Science 1. What digestive organ mechanically and chemically transforms bolus into chime​</h2><br />
+                        <p><strong>Answer:</strong></p><strong>Stomach</strong><p><strong>Explanation:</strong></p><p>The bolus then reaches the stomach, where more mechanical and chemical digestion take place. The muscles in the stomach walls churn the bolus (mechanical), allowing it to mix with digestive enzymes and gastric acids (chemical). This process converts the bolus into a liquid called chyme.</p><p></p><p>hope it help pls don't delete it :(</p><br />
+                                            <h2 class="ez-toc-section" id="test-have-you-learned-directions-identify-what-is-being-described-in-each-of-the-following-sentence-solid-it-is-a-state-of-matter-in-which-the-particles-are-held-to-1-es-2-adding-or-removing-thi">
+                            19. TEST: Have You Learned? Directions, Identify what is being described in each of the following sentence Solid It is a state of matter in which the particles are held to 1. es. 2. Adding or removing this can transform matter from 3. Shape and color are examples of this type of proper 4. It is the ability of a substance to burn. 5. It is the ratio of the mass of a material to its volume 6. It refers to the transformation of a solid into a liquic 7. When this occurs, the composition of matter is cha 8. It is dependent on the kind or quality of matter. 9. It is the transformation of a gas into a liquid. 10. It is dependent on the quantity of matter hothorach of the following is a shominal channe or anhysical chane​</h2><br />
+                        <p><strong>Answer:</strong></p><p>2 po Ang sagot thank me later</p><br />
+                                            <h2 class="ez-toc-section" id="a-independent-activity-1-consists-of-5-item-testtransform-myselfif-the-quarratir-equation-is-not-in-standard-form-transform-into-ax2-bx-c-o-and-determine-ule-vaiue-oi-a-b-and-c-corceq">
+                            20. A. Independent Activity 1 (consists of 5-item test)
+Transform Myself
+if the quarratir equation is not in standard form, transform into ax2 + bx + c
+- O and determine ule vaiue oí a, b, and c.
+Cor
+c
+Equation
+a
+b
+Quadratic Equation in
+standard form
+Cor
+1.
+1. 7* - 12 = *
+2. 7x - 4 + 4 x = 0
+3. 25 - 10.x = -x
+4. 5x + 4 = 2x2
+5. x2 = -4x + 20</h2><br />
+                        <p><strong>Answer:</strong></p><p>hirap naman po nyan<strong> </strong><strong>s</strong><strong>o</strong><strong>w</strong><strong>i</strong><strong> </strong><strong>p</strong><strong>o</strong><strong> </strong></p><br />
+                                            <h2 class="ez-toc-section" id="d-if-i-pass-the-test-then-i-study-for-numbers-19-and-20-write-your-own-simple-sentence-given-the-picture-at-the-right-and-transform-the-simple-sentence-into-an-equivalent-if-then-statement-please">
+                            21. D. If I pass the test, then I study. For numbers 19 and 20. Write your own simple sentence given the picture at the right and transform the simple sentence into an equivalent if-then statement (Please follow the correct usage of grammar and subject-verb agreement)​</h2><br />
+                        <p><strong>Answer:</strong></p><p>19. We should stay at home to avoid COVID-19.</p><p>20. If we stay at home, then we could avoid COVID-19.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="test-lv-list-at-least-two-appliance-or-object-found-in-your-household-that-produce-energy-draw-an-illustration-which-shows-energy-is-transformation-an-example-is-done-for-you%e2%80%8b">
+                            22. Test lV.  List at least two appliance or object found in your household that produce energy. Draw an illustration which shows energy is transformation. An example is done for you​</h2><br />
+                        <p><strong>Answer:</strong></p><p>the model number of five and a half hours to get to the airport and I will be there at ibapa</p><br />
+                                            <h2 class="ez-toc-section" id="checking-your-understandingdirections-fill-in-the-correct-energy-form-in-each-of-the-boxes-below-to-show-the-energytransformation-of-a-light-bulb-and-a-microwave-oven-a-licht-puth-on-metrob-ot">
+                            23. CHECKING YOUR UNDERSTANDING
+Directions: Fill in the correct energy form in each of the boxes below to show the energy
+transformation of a light bulb and a microwave oven.
+A.
+Licht Puth On Metro
+B.
+O
+Television Tubeteg vasler sanble sabia
+un a
+nu
+POST TEST
+ona</h2><br />
+                        <p>Secret of the world war 69 tawsan</p><br />
+                                            <h2 class="ez-toc-section" id="a-5kva-2400-120240-volt-distribution-transformer-when-given-a-short-circuit-test-had-94-2-volts-applied-with-rated-current-flowing-in-the-short-circuited-wiring-what-is-the-per-unit-impedance-of-th">
+                            24. A 5kva, 2400-120/240 volt distribution transformer when given a short circuit test had 94.2 volts applied with rated current flowing in the short circuited wiring. what is the per unit impedance of the transformer</h2><br />
+                        <p><strong>Answer:</strong></p><p>A 5 kVA, 2400-120/24Ovolt distribution transformer when given a short circuit test had 94.2 volts applied with rated current flowing in the short- circuited wiring: What is the per-unit impedance of the transformer? 0.0415 ohms 0.0435 ohms 0.0392 ohms 0.0386 ohms'</p><p><strong>Explanation:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="test-transform-the-given-equation-in-standard-form-then-identify-the-a-b-c-and-solve-for-the-roots-use-the-back-page-for-your-answers-with-solution-1-x%c2%b2-12-8x-0-2-2m-8%c2%b2-0-3">
+                            25. Test : Transform the given equation in standard form then identify the a, b, c and solve for the roots. Use the back page for your answers with solution, 1. x² + 12 + 8x = 0 2. (2m-8)² = 0 3. 5x² - 10x = 2​</h2><br />
+                        <p><strong>Answer:</strong></p><p></p><p></p><p>1. x² + 12 + 8x = 0 </p><p>2. (2m-8)² = 0 </p><p>3. 5x² - 10x = 2</p><br />
+                                            <h2 class="ez-toc-section" id="how-to-test-transformer-make-a-flowchartplls-po-kailangan-ko-talaga-to%e2%80%8b">
+                            26. how to test transformer make a flowchartplls po kailangan ko talaga to​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Four Methods to test the Transformer</p><p></p><p>1. Turns Ratio Testing</p><p></p><p>Turns ratio transformer testing is commonly used to ensure that the winding ratio between the primary and secondary coils are aligned to recommended specifications. This type of transformer testing also ensures the transformer will provide either step-up or step-down voltage. A step-down transformer, for instance, comprised of 100 primary turns and 10 secondary turns will work to reduce the voltage by a factor of 10 — corresponding to the secondary coil — while multiplying the current by 10 as well.</p><p></p><p>2. Insulation Resistance Testing</p><p></p><p>Insulation resistance transformer testing, also known as the Megger test, is used to determine the quality of insulation within the transformer itself. These tests are conducted with a megohmmeter, one of the necessary transformer test instruments, that operates similar to a multi-meter. In order to pass the test, the insulation of a transformer must be determined to have a greater resistance than defined by international standards for that transformer type. If it measures any lower it could signify an issue with the insulation which may require replacement.</p><p></p><p>3. Power Factor Testing</p><p></p><p>Power factor transformer testing is the process wherein the power loss of the insulation system is tested by measuring the angel the resulting current of power that occurs when AC voltage is applied. For the test results to be optimal, the angle of the current should measure 90 degrees; however, more often than not, insulation is never perfect. As a rule, the closer to 90 that the current is, the better the insulation is.</p><p></p><p>This test is completed with a power factor test kit, and it can be completed regularly throughout the life of the transformer. This can help detect deteriorating or malfunctioning insulation over time and give you an idea of when the transformer will need to be replaced.</p><p></p><p>4. Resistance Testing</p><p></p><p>This type of transformer testing once a transformer has been left to settle at the same temperature of the surrounding air. The reason for this is to check for any differences between the opens and windings within the transformer. This helps ensure that all the circuits are still wired and connected correctly. This test is conducted using an ohmmeter.</p><p></p><p>How to test the Transformer:</p><p></p><p>To test your transformer, simply touch the red and black pins of your ohmmeter to the opposite ends of the transformer's wiring. Read the display and compare the resistance on your ohmmeter to the resistance stated on the transformer's data sheet.</p><br />
+                                            <h2 class="ez-toc-section" id="21-in-testing-a-non-%e2%80%93-polarized-capacitor-the-needle-of-the-tester-deflects-and-stays-at-zero-resistance-mark-means-that-the-capacitor-defective-is-_________-22-when-the-secondary-winding">
+                            27. 21. In testing a non – polarized capacitor the needle of the tester deflects and stays at zero resistance mark means that the capacitor (defective) is _________.22. When the secondary winding has more turns than the primary then it is a __________ transformer23. In testing a capacitor, when the needle does not deflect toward zero but did not return fully to its idle position and remained stationary at a point then it is an/a ___________ capacitor (defective)​</h2><br />
+                        <p><strong>Answer:</strong></p><p>21.CAPACITATOR</p><p>22.LARGE</p><p>23.TO</p><br />
+                                            <h2 class="ez-toc-section" id="1-why-do-we-need-to-test-a-transistor-how-do-you-test-a-transistor2-what-are-you-going-to-do-to-check-the-continuity-of-a-transformer%e2%80%8b">
+                            28. 1.why do we need to test a transistor ? how do you test a transistor?2.what are you going to do to check the continuity of a transformer?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.This form of testing is able to detect whether transistor or a diode is operational, and although it cannot provide details of the parameters, this is seldom a problem because these components will have been tested at manufacture and it is comparatively rare for the performance to fall to a point where they do not operate in a circuit. </p><p></p><p><strong>Explanation:</strong></p><p>yan na po Ang sagot </p><p></p><p>#carry on learning </p><br />
+                                            <h2 class="ez-toc-section" id="transform-the-following-sentences-into-mathematical-equation-1-the-number-y-is-equal-to-the-sum-of-twice-of-a-and-b2-the-weight-of-a-rabbit-w-is-atleast-1-2-kg-3-the-maximum-score-of-the-test-x">
+                            29. transform the following sentences into mathematical equation 1. The number y is equal to the sum of twice of a and b2.the weight of a rabbit (w) is atleast 1.2 kg. 3.The maximum score of the test (x) is thirty. 4.The minimum wage in agricultural sector in laguna (L) is php 30​</h2><br />
+                        <p><strong>Answer:</strong></p><p>y= +a+b</p><p>w= 1.2 kg</p><p>x  (30)</p><p>(L) php 30</p><p><strong>Step-by-step explanation:</strong></p><p>it so very hard to say </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="romans-122do-not-conform-to-the-pattern-of-this-world-but-be-transformed-by-the-renewing-of-your-mind-then-you-will-be-able-to-test-and-approve-what-god%e2%80%99s-will-is%e2%80%94his-good-pleasing">
+                            30. Romans 12:2Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.GUYS LAST BIBLE VERSE NO POINT NAKO​</h2><br />
+                        <p><strong>Answer:</strong></p><p>GOD LOVES YOU AND REMEMBER THAT HE WILL FORGIVE YOU</p><p></p><p>FOR GOD SO LOVED THE WORLD, THAT HE GAVE HIS ONLY BEGOTTEN SON, THAT WHOEVER BELIEVES IN HIM SHOULD NOT PERISH BUT HAVE EVERLASTING LIFE. -JOHN 3:16</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/5TcLR9AfdHU?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>technology_and_home_economics</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/faith-healer-in-cavite.html">Faith Healer In Cavite</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/cramer-s-rule-economics.html">Cramer s Rule Economics</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/fiber-project.html">Fiber Project</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/paikot-ikot-in-english.html">Paikot Ikot In English</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/foundation-pattern.html">Foundation Pattern</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/material-flow-analysis-case-study.html">Material Flow Analysis Case Study</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/paano-maghugas-ng-pinggan.html">Paano Maghugas Ng Pinggan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/aresto-menor.html">Aresto Menor</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/kindergarten-age-philippines.html">Kindergarten Age Philippines</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/larawan-ng-pangngalan.html">Larawan Ng Pangngalan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/kultura-at-tradisyon-ng-africa.html">Kultura At Tradisyon Ng Africa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/media-fill-test.html">Media Fill Test</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/highwayman-pictures.html">Highwayman Pictures</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/panunumpa-ng-kawani-ng-gobyerno-pdf.html">Panunumpa Ng Kawani Ng Gobyerno Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/chasing-shackleton-dvd.html">Chasing Shackleton Dvd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/plane-and-solid-figures.html">Plane And Solid Figures</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/mactan-airport-terminal-2.html">Mactan Airport Terminal 2</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/slide-hosting-services.html">Slide Hosting Services</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/el-filibusterismo-quotes-tagalog.html">El Filibusterismo Quotes Tagalog</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/titus-information-payroll-system.html">Titus Information Payroll System</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://topminded.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://topminded.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

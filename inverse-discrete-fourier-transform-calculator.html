@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inverse Discrete Fourier Transform Calculator - QnA</title>
+    <meta name="description" content="Inverse Discrete Fourier Transform Calculator, , , , , , , 0, Fast Fourier Transform FFT Algorithms Relation to the, slidetodoc.com, 720 x 540, jpeg, , 20, inverse-discrete-fourier-transform-calculator, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Inverse Discrete Fourier Transform Calculator - QnA" />
+    <meta property="og:description" content="Inverse Discrete Fourier Transform Calculator, , , , , , , 0, Fast Fourier Transform FFT Algorithms Relation to the, slidetodoc.com, 720 x 540, jpeg, , 20, inverse-discrete-fourier-transform-calculator, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Inverse Discrete Fourier Transform Calculator - QnA" />
+    <meta name="twitter:description" content="Inverse Discrete Fourier Transform Calculator, , , , , , , 0, Fast Fourier Transform FFT Algorithms Relation to the, slidetodoc.com, 720 x 540, jpeg, , 20, inverse-discrete-fourier-transform-calculator, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://topminded.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://topminded.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://topminded.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://topminded.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://topminded.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://topminded.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://topminded.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://topminded.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Inverse Discrete Fourier Transform Calculator</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">kratosbando</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Inverse+Discrete+Fourier+Transform+Calculator" alt="Inverse Discrete Fourier Transform Calculator">
+                    </div>
+                    <p></p>
+                    <p>Discrete Fourier Transform (DFT) and Inverse DFT1) Find the DFT at 4-point of the sequence[tex]x(n)=(0.8)^n[/tex]2) Find the IDFT of[tex]X(k)=\{1,2,3,4\}[/tex]</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#discrete-fourier-transform-dft-and-inverse-dft1-find-the-dft-at-4-point-of-the-sequencetexxn0-8ntex2-find-the-idft-oftexxk1234tex">1.
+                                            Discrete Fourier Transform (DFT) and Inverse DFT1) Find the DFT at 4-point of the sequence[tex]x(n)=(0.8)^n[/tex]2) Find the IDFT of[tex]X(k)=\{1,2,3,4\}[/tex]</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#reflection-about-fourier-transform-infrared-spectroscopy-ftir">2.
+                                            reflection about Fourier transform infrared spectroscopy (FTIR</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#calculate-the-power-of-discrete-time-signal">3.
+                                            Calculate the power of discrete time signal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-are-the-contributions-of-joseph-fourier-in-mathematics%e2%80%8b">4.
+                                            What are the contributions of Joseph Fourier in Mathematics?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#discretecontinuous1-number-of-days-a-discrete-b-continuous2-number-of-revolutions-per-minute-of-a-wheel-a-discrete-b-continuous3-number-of-shooting-stars-in-one-night-a-discrete-b">5.
+                                            Discrete/Continuous
+1. Number of days
+ A) Discrete
+ B) Continuous
+2. Number of revolutions per minute of a wheel 
+ A) Discrete 
+ B) Continuous
+3. Number of shooting stars in one night
+ A) Discrete
+ B) Continuous
+4. Amount of money spent on buying medicines 
+ A) Discrete 
+ B) Continuous
+5. Weight of a baby
+ A) Discrete 
+ B) Continuous
+6. Population of a contrary
+ A) Discrete
+ B) Continuous
+7. Number of attendees in a graduation ceremony
+ A) Discrete
+ B) Continuous
+8.) Product of the BMIs of two persons
+ A) Discrete
+ B) Continuous
+9) Number of times of person urinates in a day
+ A) Discrete
+ B) Continuous
+10. Amount of water in litres that a person consumes in a day
+ A) Discrete
+ B) Continuous
+11. Sum of two even numbers
+ A) Discrete
+ B) Continuous
+12. Average electricity consumption of household per year
+ A) Discrete
+ B) Continuous
+13. Number of students in the canteen during lunch break
+ A) Discrete
+ B) Continuous
+14. Time spent by the athlete to finish a race
+ A) Discrete
+ B) Continuous
+15. Number of recipients of a government scholarship
+ A) Discrete
+ B) Continuous</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#state-the-converse-contrapositive-and-inverse-of-the-following-statements-1-if-you-receive-a-grade-in-discrete-mathematics-then-you-will-be-awarded-a-scholarship-2-if-exercise-is-good-for-my-hea">6.
+                                            State the converse, contrapositive, and inverse of the following statements: 1. If you receive A grade in discrete mathematics then, you will be awarded a scholarship.2. If exercise is good for my health then, I will go to the park.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#5-how-are-we-going-to-calculate-the-variance-of-discrete-probability-distribution%e2%80%8b">7.
+                                            5.How are we going to calculate the variance of discrete probability Distribution?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-are-the-steps-or-part-in-writing-a-paragraph-of-fourier-descriptive-essay-pa-anwer-po-mabilis%e2%80%8b">8.
+                                            what are the steps or part in writing a paragraph of fourier descriptive essay. pa anwer po mabilis​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#it-is-the-sum-of-the-products-of-the-values-of-the-discrete-random-variable-and-their-corresponding-probabilities-a-mean-of-a-discrete-random-variableb-median-of-a-discrete-random-variablec-vari">9.
+                                            It is the sum of the products of the values of the discrete random variable and their corresponding probabilities.
+A. Mean of a Discrete Random Variable
+B. Median of a Discrete Random Variable
+C. Variance of a Discrete Random Variable
+D. Standard Deviation of a Discrete Random Variable</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#which-of-the-following-statements-is-true-about-discrete-random-variablea-discrete-random-variable-takes-on-values-on-a-continuous-scaleb-discrete-random-variable-represents-measured-data-like-heig">10.
+                                            Which of the following statements is TRUE about discrete random variable?a. Discrete random variable takes on values on a continuous scaleb. Discrete random variable represents measured data like heights, weightsDiscrete random variable has set of possible outcomes that is countable.d Discrete random variable has infinite measuresha​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#assessment-calculate-the-mean-and-variance-of-a-discrete-random-variable-75-77%e2%80%8b">11.
+                                            Assessment calculate the mean and variance of a discrete random variable 75 77​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-certain-experiment-conducted-was-normally-distributed-the-mean-value-is-50-and-the-standard-deviation-is-4-if-the-total-population-is-1000-discrete-variable-calculate-the-probability-for-gettin">12.
+                                            A certain experiment conducted was normally distributed. The mean value is 50 and the standard deviation is 4. If the total population is 1000 (discrete variable), calculate the probability for getting an x-value greater than 45. *​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#give-10-examples-each-for-discrete-and-continuousvariable-state-the-reason-why-is-it-discrete-andcontinuous-%e2%80%8b">13.
+                                            Give 10 examples each for Discrete and ContinuousVariable. State the reason why is it Discrete andContinuous.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-is-the-calculator-a-useful-tool-for-calculating-probability-in-discrete-random-variable-experiments%e2%80%8b">14.
+                                            How is the calculator a useful tool for calculating probability in discrete random variable experiments?​.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#complete-the-table-and-calculate-for-mean-and-the-variance-of-discrete-random-variable-x-%e2%80%8b">15.
+                                            Complete the table and calculate for MEAN and the Variance of discrete random variable X.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#instruction-identify-if-the-following-distributions-are-discrete-or-not-if-it-is-not-a-discrete-probability-distribution-identify-the-properties-that-are-not-satisfied-%e2%80%8b">16.
+                                            Instruction: Identify if the following distributions are discrete or not. If it is not a discrete probability distribution, identify the properties that are not satisfied.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perimeter-of-a-doordiscrete-or-continuous-number-of-teachers-at-a-schooldiscrete-or-continuous-%e2%80%8b">17.
+                                            perimeter of a doordiscrete or continuous? number of teachers at a schooldiscrete or continuous? ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#which-terin-is-calculated-by-summing-the-product-of-the-square-of-the-difference-betweenthe-value-of-the-random-variable-and-the-expected-value-and-the-associated-probabilityof-the-value-of-the-rando">18.
+                                            Which terın is calculated by summing the product of the square of the difference betweenthe value of the random variable and the expected value, and the associated probabilityof the value of the random variable, taken over all of the values of the random variable,and finally taking the square root? A. Probability DistributionB. Variance of Discrete Probability DistributionC. Standard Deviation of Discrete                 Probability DistributionD. Mean or Expected Value of Discrete Probability Distribution​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#why-did-joseph-fourier-get-imprisoned%e2%80%8b">19.
+                                            why did Joseph Fourier get imprisoned?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fourier-series-of-1-x2-on-the-interval-of-22about-po-sa-fourier-series-kay-kuya-po-ito-ty-po">20.
+                                            fourier series of 1-x2 on the interval of [-2,2]
+about po sa fourier series kay kuya po ito ty po</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#who-used-the-term-science-sociale-to-describe-the-field-taken-from-the-ideas-of-charles-fourier%e2%80%8b">21.
+                                            Who used the term "science sociale" to describe the field, taken from the ideas of Charles Fourier?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#according-to-charles-fourier-what-was-the-primary-source-of-the-problems-faced-by-society">22.
+                                            According to Charles Fourier, what was the primary source of the problems faced by society?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#give-one-sample-of-discrete-and-one-sample-of-continous-random-variable-fpr-each-field-1-in-field-of-mathematicsdiscretecontinuous2-in-field-of-sciencediscretecontinuous3-in-field-of-historyd">23.
+                                            Give one sample of discrete and one sample of continous random variable fpr each field.1. In field of mathematics:Discrete:Continuous:2 In field of Science:Discrete:Continuous:3. In field of History:Discrete:Continuous:4. In field of Transportation:Discrete:Continuous:5. In field of Technology/Computers:Discrete:Continuous: ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#charles-fourier-was-known-to-coin-the-term">24.
+                                            Charles fourier was known to coin the term:</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-is-the-formula-in-calculating-the-mean-or-expected-value-of-a-discrete-random-variable%e2%80%8b">25.
+                                            what is the formula in calculating the mean or expected value of a discrete random variable​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-what-data-are-needed-to-calculate-the-expected-mean-2-what-is-the-formula-for-the-mean-of-discrete-random-variable-3-what-is-the-formula-in-getting-the-variance-of-a-discrete-random-variable-4">26.
+                                            1. What data are needed to calculate the expected mean? 2. What is the formula for the mean of discrete random variable? 3. What is the formula in getting the variance of a discrete random variable? 4. What does the value of variance indicate?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#iiib-2-calculate-the-mean-and-the-variance-of-a-discrete-random-variablem1112sp-iiib-2%e2%80%8b">27.
+                                            IIIb-2.Calculate the mean and the variance of a discrete random variable;(M11/12SP-IIIb-2)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-what-data-are-needed-to-calculate-the-expected-mean-2-what-is-the-formula-for-the-mean-of-discrete-random-variable-3-what-is-the-formula-in-getting-the-variance-of-a-discrete-random-variable-4">28.
+                                            1. What data are needed to calculate the expected mean? 2. What is the formula for the mean of discrete random variable? 3. What is the formula in getting the variance of a discrete random variable? 4. What does the value of variance indicate?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#10-sino-ang-hindi-kabilang-sa-sosyalismo-a-friedrich-angels-b-robert-owen-c-charles-fourier-d-henri-de-saint-simon%e2%80%8b">29.
+                                            10. Sino ang hindi kabilang sa sosyalismo a. Friedrich Angels b. Robert Owen c. Charles Fourier d. Henri de Saint-Simon?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-number-of-passenger-in-a-busa-discreteb-continuous2-price-of-a-cellphonea-discreteb-continuous3-shoe-sizea-discreteb-continuous4-number-of-submitted-outputs-in-matha-discreteb-continuous">30.
+                                            1. number of passenger in a busA. DiscreteB. Continuous2. price of a cellphoneA. DiscreteB. Continuous3. shoe sizeA. DiscreteB. Continuous4. number of submitted outputs in MathA. DiscreteB. Continuous5.  Score in a Long TestA. DiscreteB. Continuous​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="discrete-fourier-transform-dft-and-inverse-dft1-find-the-dft-at-4-point-of-the-sequencetexxn0-8ntex2-find-the-idft-oftexxk1234tex">
+                            1. Discrete Fourier Transform (DFT) and Inverse DFT1) Find the DFT at 4-point of the sequence[tex]x(n)=(0.8)^n[/tex]2) Find the IDFT of[tex]X(k)=\{1,2,3,4\}[/tex]</h2><br />
+                        <p>See the attached images.</p><p>Answer: Discrete Fourier Transform (DFT) and Inverse DFT</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="reflection-about-fourier-transform-infrared-spectroscopy-ftir">
+                            2. reflection about Fourier transform infrared spectroscopy (FTIR</h2><br />
+                        <p><strong>Answer:</strong></p><p></p><p><strong>Fourier Transform Infrared Spectroscopy (FTIR) identifies chemical bonds in a molecule by producing an infrared absorption spectrum. The spectra produce a profile of the sample, a distinctive molecular fingerprint that can be used to screen and scan samples for many different components.</strong></p><p></p><p><strong>Explanation:</strong></p><p></p><p><strong>;</strong><strong>)</strong></p><br />
+                                            <h2 class="ez-toc-section" id="calculate-the-power-of-discrete-time-signal">
+                            3. Calculate the power of discrete time signal</h2><br />
+                        <p><strong>Answer:</strong></p><p>ed edd eddy wow power tnk</p><br />
+                                            <h2 class="ez-toc-section" id="what-are-the-contributions-of-joseph-fourier-in-mathematics%e2%80%8b">
+                            4. What are the contributions of Joseph Fourier in Mathematics?​</h2><br />
+                        The Fourier Series and Fourier Transform <br /><br />Fourier series is a series compose of the summation of sine and cosine waves <br />
+                                            <h2 class="ez-toc-section" id="discretecontinuous1-number-of-days-a-discrete-b-continuous2-number-of-revolutions-per-minute-of-a-wheel-a-discrete-b-continuous3-number-of-shooting-stars-in-one-night-a-discrete-b">
+                            5. Discrete/Continuous
+1. Number of days
+ A) Discrete
+ B) Continuous
+2. Number of revolutions per minute of a wheel 
+ A) Discrete 
+ B) Continuous
+3. Number of shooting stars in one night
+ A) Discrete
+ B) Continuous
+4. Amount of money spent on buying medicines 
+ A) Discrete 
+ B) Continuous
+5. Weight of a baby
+ A) Discrete 
+ B) Continuous
+6. Population of a contrary
+ A) Discrete
+ B) Continuous
+7. Number of attendees in a graduation ceremony
+ A) Discrete
+ B) Continuous
+8.) Product of the BMIs of two persons
+ A) Discrete
+ B) Continuous
+9) Number of times of person urinates in a day
+ A) Discrete
+ B) Continuous
+10. Amount of water in litres that a person consumes in a day
+ A) Discrete
+ B) Continuous
+11. Sum of two even numbers
+ A) Discrete
+ B) Continuous
+12. Average electricity consumption of household per year
+ A) Discrete
+ B) Continuous
+13. Number of students in the canteen during lunch break
+ A) Discrete
+ B) Continuous
+14. Time spent by the athlete to finish a race
+ A) Discrete
+ B) Continuous
+15. Number of recipients of a government scholarship
+ A) Discrete
+ B) Continuous</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.A</p><p>2.B</p><p>3.B</p><p>4.B</p><p>5.A</p><p>6.B</p><p>7.A</p><p>8.A</p><p>9.A</p><p>10.B</p><p>11.B</p><p>12.B</p><p>13.A</p><p>14.B</p><p>15.B</p><p><strong>Explanation:</strong></p><p>I HOPE IT HELPS</p><p>BRAINLIST ME</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="state-the-converse-contrapositive-and-inverse-of-the-following-statements-1-if-you-receive-a-grade-in-discrete-mathematics-then-you-will-be-awarded-a-scholarship-2-if-exercise-is-good-for-my-hea">
+                            6. State the converse, contrapositive, and inverse of the following statements: 1. If you receive A grade in discrete mathematics then, you will be awarded a scholarship.2. If exercise is good for my health then, I will go to the park.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Mag exercise tuwing umaga</p><br />
+                                            <h2 class="ez-toc-section" id="5-how-are-we-going-to-calculate-the-variance-of-discrete-probability-distribution%e2%80%8b">
+                            7. 5.How are we going to calculate the variance of discrete probability Distribution?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1v1=2</p><p>that all</p><p><strong>Step-by-step explanation:</strong></p><p>use calcuilation</p><br />
+                                            <h2 class="ez-toc-section" id="what-are-the-steps-or-part-in-writing-a-paragraph-of-fourier-descriptive-essay-pa-anwer-po-mabilis%e2%80%8b">
+                            8. what are the steps or part in writing a paragraph of fourier descriptive essay. pa anwer po mabilis​</h2><br />
+                        <p><strong>Answer:</strong></p><p>The writing tips below can provide a step-by-step template for writing descriptive essays.</p><p></p><p>Choose a specific topic. ... Compile information. ... Make an outline. ... Write the introductory paragraph. ... Write body paragraphs. ... Summarize the essay in the concluding paragraph. ... Look for ways to enliven your language.</p><p></p><p></p><p><strong>Explanation:</strong></p><p>pa brainlist po hehe</p><p><strong>ANSWER</strong><strong> </strong></p><p></p><p><strong>●</strong><strong>Step 1: Decide on a guiding idea for the paragraph and create a topic sentence</strong></p><p></p><p></p><p><strong>●</strong><strong>Step 2: Explain the guiding idea</strong></p><p></p><p></p><p><strong>●</strong><strong>Step 3: Give an example (or multiple examples)</strong></p><p></p><p><strong>●</strong><strong>Step 4: Explain the example(s)</strong></p><p></p><p></p><p><strong>●</strong><strong>Step 5: Complete the paragraph's idea or</strong></p><p><strong> draw a conclusion</strong></p><p></p><p></p><p></p><p></p><p><strong>(</strong><strong>BASE</strong><strong> </strong><strong>O</strong><strong>N</strong><strong> </strong><strong>YOUR</strong><strong> </strong><strong>OTHER</strong><strong> </strong><strong>OPINION</strong><strong>)</strong></p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="it-is-the-sum-of-the-products-of-the-values-of-the-discrete-random-variable-and-their-corresponding-probabilities-a-mean-of-a-discrete-random-variableb-median-of-a-discrete-random-variablec-vari">
+                            9. It is the sum of the products of the values of the discrete random variable and their corresponding probabilities.
+A. Mean of a Discrete Random Variable
+B. Median of a Discrete Random Variable
+C. Variance of a Discrete Random Variable
+D. Standard Deviation of a Discrete Random Variable</h2><br />
+                        <p><strong>Answer:</strong></p><p>D</p><p><strong>Step-by-step explanation:</strong></p><p>hope it helps</p><p>brainliest me please^^</p><br />
+                                            <h2 class="ez-toc-section" id="which-of-the-following-statements-is-true-about-discrete-random-variablea-discrete-random-variable-takes-on-values-on-a-continuous-scaleb-discrete-random-variable-represents-measured-data-like-heig">
+                            10. Which of the following statements is TRUE about discrete random variable?a. Discrete random variable takes on values on a continuous scaleb. Discrete random variable represents measured data like heights, weightsDiscrete random variable has set of possible outcomes that is countable.d Discrete random variable has infinite measuresha​</h2><br />
+                        <p>Answer:B</p><p></p><p>Step-by-step explanation:correct me if I’m wrong </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="assessment-calculate-the-mean-and-variance-of-a-discrete-random-variable-75-77%e2%80%8b">
+                            11. Assessment calculate the mean and variance of a discrete random variable 75 77​</h2><br />
+                        <p><strong>Answer:</strong></p><p>the mean is 76</p><p><strong>Step-by-step explanation:</strong></p><p>When getting the mean...you take the average...</p><p>mean is equal to the sum of 75 and 77 which is equal to 152 divided by 2. This would be equal to 76. Hence theean is 76.</p><br />
+                                            <h2 class="ez-toc-section" id="a-certain-experiment-conducted-was-normally-distributed-the-mean-value-is-50-and-the-standard-deviation-is-4-if-the-total-population-is-1000-discrete-variable-calculate-the-probability-for-gettin">
+                            12. A certain experiment conducted was normally distributed. The mean value is 50 and the standard deviation is 4. If the total population is 1000 (discrete variable), calculate the probability for getting an x-value greater than 45. *​</h2><br />
+                        <p><strong>Answer:</strong></p><p>the answer is the mean the solution po</p><br />
+                                            <h2 class="ez-toc-section" id="give-10-examples-each-for-discrete-and-continuousvariable-state-the-reason-why-is-it-discrete-andcontinuous-%e2%80%8b">
+                            13. Give 10 examples each for Discrete and ContinuousVariable. State the reason why is it Discrete andContinuous.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>sunod sunod na po yan </p><p><strong>Step-by-step explanation:</strong></p><p>yan na po sa taas</p><br />
+                                            <h2 class="ez-toc-section" id="how-is-the-calculator-a-useful-tool-for-calculating-probability-in-discrete-random-variable-experiments%e2%80%8b">
+                            14. How is the calculator a useful tool for calculating probability in discrete random variable experiments?​.</h2><br />
+                        <p><strong>Answer:</strong></p><p>if you don't now what is 10×18 search it in calcuator</p><p><strong>Step-by-step explanation:</strong></p><p>remember don't use calculator for bad you neEd to learn than just pretending you are smart then when you go to a test you need to calculate it by your own.</p><p></p><p>#keeplearning</p><br />
+                                            <h2 class="ez-toc-section" id="complete-the-table-and-calculate-for-mean-and-the-variance-of-discrete-random-variable-x-%e2%80%8b">
+                            15. Complete the table and calculate for MEAN and the Variance of discrete random variable X.​</h2><br />
+                        <p><strong>Answer:</strong></p><p></p><p>Just multiply the values </p><p>   </p><p>x         p(x)         x•p(x)      x²•p(x)</p><p>1         4/9           4/9          4/9</p><p>3         2/9          2/3            2 </p><p>5         1/9           5/9          25/9</p><p>7         2/9          14/9         98/9</p><br />
+                                            <h2 class="ez-toc-section" id="instruction-identify-if-the-following-distributions-are-discrete-or-not-if-it-is-not-a-discrete-probability-distribution-identify-the-properties-that-are-not-satisfied-%e2%80%8b">
+                            16. Instruction: Identify if the following distributions are discrete or not. If it is not a discrete probability distribution, identify the properties that are not satisfied.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.probability distribution</p><p>2.probability distribution</p><p>3.probability distribution</p><p>4.probability distribution</p><p>5.probabitily distribution</p><br />
+                                            <h2 class="ez-toc-section" id="perimeter-of-a-doordiscrete-or-continuous-number-of-teachers-at-a-schooldiscrete-or-continuous-%e2%80%8b">
+                            17. perimeter of a doordiscrete or continuous? number of teachers at a schooldiscrete or continuous? ​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1. continuous</p><p>2. discrete</p><p><strong>Step-by-step explanation:</strong></p><p>sana maka tulong, pa follow po salamat</p><br />
+                                            <h2 class="ez-toc-section" id="which-terin-is-calculated-by-summing-the-product-of-the-square-of-the-difference-betweenthe-value-of-the-random-variable-and-the-expected-value-and-the-associated-probabilityof-the-value-of-the-rando">
+                            18. Which terın is calculated by summing the product of the square of the difference betweenthe value of the random variable and the expected value, and the associated probabilityof the value of the random variable, taken over all of the values of the random variable,and finally taking the square root? A. Probability DistributionB. Variance of Discrete Probability DistributionC. Standard Deviation of Discrete                 Probability DistributionD. Mean or Expected Value of Discrete Probability Distribution​</h2><br />
+                        <p><strong>Answer:</strong></p><p><strong>I</strong><strong> </strong><strong>think</strong><strong> </strong><strong>letter</strong><strong> </strong><strong>C</strong><strong>.</strong><strong> </strong><strong>Standard</strong><strong> </strong><strong>Deviation</strong><strong> </strong><strong>of</strong><strong> </strong><strong>Discrete</strong></p><br />
+                                            <h2 class="ez-toc-section" id="why-did-joseph-fourier-get-imprisoned%e2%80%8b">
+                            19. why did Joseph Fourier get imprisoned?​</h2><br />
+                        <p>FOURIER made the mistake of defending the stance of his own Auxerre faction before a rival sect while on a trip to Orléans. In July 1794, he WAS ARRESTED and IMPRISONED for the views he'd expressed on that trip, and found himself facing the quillotine</p><p></p><p><strong>Answer:</strong></p><p></p><p>he joined a local revolutionary committee, which was opposed to the monarchy. He quickly became entangled with the French Revolution, and was imprisoned in 1794 for expressing his views.</p><p></p><p>Fortunately, he was spared the guillotine and was freed later that year. </p><br />
+                                            <h2 class="ez-toc-section" id="fourier-series-of-1-x2-on-the-interval-of-22about-po-sa-fourier-series-kay-kuya-po-ito-ty-po">
+                            20. fourier series of 1-x2 on the interval of [-2,2]
+about po sa fourier series kay kuya po ito ty po</h2><br />
+                        SOLUTION:<p>Fourier series of a function [tex]f(x)[/tex] in the interval of [tex]-L\le \:x\le \:L[/tex] is define as:</p>[tex]\boxed{\bold{\:f\left(x\right)=A_0+\sum _{n=1}^{\infty \:}A_n\cdot \cos \left(\frac{n\pi x}{L}\right)+\sum _{n=1}^{\infty \:}B_n\cdot \sin \left(\frac{n\pi x}{L}\right)}}[/tex] <p>Whereas,</p>[tex]\rm{\:A_0=\frac{1}{2L}\cdot \int _{-L}^Lf\left(x\right)dx}[/tex] [tex]\rm{\:A_n=\frac{1}{L}\cdot \int _{-L}^Lf\left(x\right)\cos \left(\frac{n\pi x}{L}\right)dx,\:\quad \:n &gt; 0}[/tex] [tex]\rm{\:B_n=\frac{1}{L}\cdot \int _{-L}^Lf\left(x\right)\sin \left(\frac{n\pi x}{L}\right)dx,\:\quad \:n &gt; 0}[/tex] <p>By applying the Fourier Series, given function [tex]f(x) = 1-x^2[/tex] and [tex]L = 2[/tex]. I.e.,</p>[tex]\rm{A_0 = \frac{1}{2\cdot 2} \cdot \int^{2}_{-2} (1-x^2)dx}[/tex] [tex]\rm{A_n = \frac{1}{2} \cdot \int^{2}_{-2} (1-x^2)\cos \left(\frac{n \pi x}{2} \right) dx}[/tex] [tex]\rm{B_n = \frac{1}{2} \cdot \int^{2}_{-2} (1-x^2)\sin \left(\frac{n \pi x}{2} \right) dx}[/tex] <p>Substituting to the Fourier Series </p>[tex]=\frac{1}{2\cdot \:2}\cdot \int _{-2}^2\left(1-x^2\right)dx+\sum _{n=1}^{\infty \:}\frac{1}{2}\cdot \int _{-2}^2\left(1-x^2\right)\cos \left(\frac{n\pi x}{2}\right)dx\cdot \cos \left(\frac{n\pi x}{2}\right)+\sum _{n=1}^{\infty \:}\frac{1}{2}\cdot \int _{-2}^2\left(1-x^2\right)\sin \left(\frac{n\pi x}{2}\right)dx\cdot \sin \left(\frac{n\pi x}{2}\right)[/tex]<p>Now. we simplify the definite integrals inside of the Fourier Series.</p><p></p><p>First Definite Integral:</p>[tex]\rm{= \int^{2}_{-2} 1-x^2 dx} \\\\ \rm{= \int^2_{-2} 1 dx - \int^2_{-2} x^2 dx } \\\\ \rm{= 4 - \frac{16}{3}} \\\\ \rm{= - \frac{4}{3}}[/tex] <p></p><p>Second Definite Integral:</p>[tex]\rm{= \int^2_{-2}(1-x^2) \cos \left(\frac{n \pi x}{2}\right) dx} \\\\ \rm{= \int^2_{-2} \cos \left(\frac{n \pi x}{2}\right) - x^2 \cos \left(\frac{n \pi x}{2}\right) dx} \\\\\ \rm{= \int^2_{-2} \cos \left(\frac{n \pi x}{2}\right) dx - \int^2_{-2} x^2 \cos \left(\frac{n \pi x}{2}\right) dx} \\\\ \rm{= 0 - \frac{32(-1)^n}{\pi^2 n^2}} \\\\ \rm{= \frac{32(-1)^n}{\pi^2 n^2}}[/tex] <p></p><p>Third Definite Integral:</p>[tex]\rm{=  \int^{2}_{-2} (1-x^2)\sin \left(\frac{n \pi x}{2} \right) dx} \\\\ = 0[/tex] <p></p><p>Now let's substitute this back to our Fourier Series. </p>[tex]\rm{=\frac{1}{2\cdot \:2}\left(-\frac{4}{3}\right)+\sum _{n=1}^{\infty \:}\frac{1}{2}\left(-\frac{32\left(-1\right)^n}{\pi ^2n^2}\right)\cos \left(\frac{n\pi x}{2}\right)+\sum _{n=1}^{\infty \:}\frac{1}{2}\cdot \:0\cdot \sin \left(\frac{n\pi x}{2}\right)} \\\\ \rm{ =-\frac{1}{3}+\sum _{n=1}^{\infty \:}-\frac{16\left(-1\right)^n\cos \left(\frac{\pi nx}{2}\right)}{\pi ^2n^2}}[/tex] <p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="who-used-the-term-science-sociale-to-describe-the-field-taken-from-the-ideas-of-charles-fourier%e2%80%8b">
+                            21. Who used the term "science sociale" to describe the field, taken from the ideas of Charles Fourier?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Auguste Comte used the term " science sociale " to describe the field, taken from the ideas of Charles Fourier ; Comte also referred to the field Beeing social physics. Following this period, five paths of development sprang forth in the social sciences, influenced by Comte in other fields.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="according-to-charles-fourier-what-was-the-primary-source-of-the-problems-faced-by-society">
+                            22. According to Charles Fourier, what was the primary source of the problems faced by society?</h2><br />
+                        <p><strong>Answer: </strong></p><p>lack of education</p><p><strong>Explanation:</strong></p><p>child labor and poverty</p><br />
+                                            <h2 class="ez-toc-section" id="give-one-sample-of-discrete-and-one-sample-of-continous-random-variable-fpr-each-field-1-in-field-of-mathematicsdiscretecontinuous2-in-field-of-sciencediscretecontinuous3-in-field-of-historyd">
+                            23. Give one sample of discrete and one sample of continous random variable fpr each field.1. In field of mathematics:Discrete:Continuous:2 In field of Science:Discrete:Continuous:3. In field of History:Discrete:Continuous:4. In field of Transportation:Discrete:Continuous:5. In field of Technology/Computers:Discrete:Continuous: ​</h2><br />
+                        <p>1 A</p><p>2 D</p><p>3 C</p><p>4 A</p><p>5 B</p><p>Yan napo Sana makatulog</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="charles-fourier-was-known-to-coin-the-term">
+                            24. Charles fourier was known to coin the term:</h2><br />
+                        Charles Fourier was known to coin the term <strong>feminism</strong>.<br />
+                                            <h2 class="ez-toc-section" id="what-is-the-formula-in-calculating-the-mean-or-expected-value-of-a-discrete-random-variable%e2%80%8b">
+                            25. what is the formula in calculating the mean or expected value of a discrete random variable​</h2><br />
+                        <p><strong>Step-by-step explanation:</strong></p><p>pabrainliest po thanks!</p><br />
+                                            <h2 class="ez-toc-section" id="1-what-data-are-needed-to-calculate-the-expected-mean-2-what-is-the-formula-for-the-mean-of-discrete-random-variable-3-what-is-the-formula-in-getting-the-variance-of-a-discrete-random-variable-4">
+                            26. 1. What data are needed to calculate the expected mean? 2. What is the formula for the mean of discrete random variable? 3. What is the formula in getting the variance of a discrete random variable? 4. What does the value of variance indicate?​</h2><br />
+                        :DIRECTION <p>1. What data are needed to calculate the expected mean? </p><p></p>you must multiply <strong>each value of the random variable by its probability</strong> and then add the <strong>products.</strong><p></p><p>2. What is the formula for the mean of discrete random variable? </p><p></p>define formula the mean of discrete random variable <strong>μ=Σx P(x). </strong><p></p><p>3. What is the formula in getting the variance of a discrete random variable? </p><p></p>formula in getting the variance of a discrete random variable <strong>σ=SD(X)=√Var(X). </strong><p></p><p>4. What does the value of variance indicate?</p><p></p><strong>the degree of spread in your data set. </strong>variance is a measure of variability. it calculated by getting the average of squared deviations from the mean. <p></p><p></p>[tex]\color{red}{untilSunset}[/tex]  <p>(ノ^_^)ノ</p><strong>Answer:</strong><p>1. What data are needed to calculate the expected mean? </p><strong>The</strong><strong> </strong><strong>probability</strong><strong> </strong><strong>of</strong><strong> </strong><strong>each</strong><strong> </strong><strong>possible</strong><strong> </strong><strong>outcome</strong><strong> </strong><strong>in</strong><strong> </strong><strong>the</strong><strong> </strong><strong>trial</strong><p>2. What is the formula for the mean of discrete random variable? </p>The mean μ of a discrete random variable x is a number that indicates the average value of x over numerous trials of the experiment. It is computed using formula μ=ΣxP(x)<strong>Hence, the formula is μ=</strong><strong>Σ</strong><strong>xP(x)</strong><p>3. What is the formula in getting the variance of a discrete random variable?</p><strong>σ=SD(X)=√Var(X)</strong><p>4. What does the value of variance indicate?</p><strong>the degree of spread in your data set</strong>-—-—-—-—-—-—-—-—-—-—-——MissPepper<br />
+                                            <h2 class="ez-toc-section" id="iiib-2-calculate-the-mean-and-the-variance-of-a-discrete-random-variablem1112sp-iiib-2%e2%80%8b">
+                            27. IIIb-2.Calculate the mean and the variance of a discrete random variable;(M11/12SP-IIIb-2)​</h2><br />
+                        <p><strong>Answer:</strong></p><p>however I mean that iwill was not a great place for the first half plus yanxi and I had to go ko and the same as </p><br />
+                                            <h2 class="ez-toc-section" id="1-what-data-are-needed-to-calculate-the-expected-mean-2-what-is-the-formula-for-the-mean-of-discrete-random-variable-3-what-is-the-formula-in-getting-the-variance-of-a-discrete-random-variable-4">
+                            28. 1. What data are needed to calculate the expected mean? 2. What is the formula for the mean of discrete random variable? 3. What is the formula in getting the variance of a discrete random variable? 4. What does the value of variance indicate?​</h2><br />
+                        <p><strong>Answer:</strong></p><p></p><p><strong>1</strong><strong>.</strong><strong>To find the expected value, E(X), or mean μ of a discrete random variable X, simply multiply each value of the random variable by its probability and add the products. The formula is given as. E ( X ) = μ = ∑ x P ( x ) .</strong></p><p></p><p><strong>2</strong><strong>.</strong><strong>The mean μ of a discrete random variable X is a number that indicates the average value of X over numerous trials of the experiment. It is computed using the formula μ=Σx P(x).</strong></p><p></p><p><strong>3</strong><strong>.</strong><strong>To calculate the Variance: square each value and multiply by its probability. sum them up and we get Σx2p. then subtract the square of the Expected Value μ</strong></p><p><strong>Explanation:</strong></p><p></p><p><strong>4</strong><strong>.</strong><strong>The variance is a measure of variability. It is calculated by taking the average of squared deviations from the mean. Variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.</strong></p><p></p><p></p><p></p><strong>YAN</strong><strong> </strong><strong>NA</strong><strong> </strong><strong>PO</strong><strong>.</strong><strong> </strong><strong>SANA</strong><strong> </strong><strong>MAKATULONG</strong><strong> </strong><p></p><br />
+                                            <h2 class="ez-toc-section" id="10-sino-ang-hindi-kabilang-sa-sosyalismo-a-friedrich-angels-b-robert-owen-c-charles-fourier-d-henri-de-saint-simon%e2%80%8b">
+                            29. 10. Sino ang hindi kabilang sa sosyalismo a. Friedrich Angels b. Robert Owen c. Charles Fourier d. Henri de Saint-Simon?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>B. Robert Owen</p><p></p><p><strong>Explanation:</strong></p><p>Be simple lang yan oh, wag puro dito umasa ha</p><br />
+                                            <h2 class="ez-toc-section" id="1-number-of-passenger-in-a-busa-discreteb-continuous2-price-of-a-cellphonea-discreteb-continuous3-shoe-sizea-discreteb-continuous4-number-of-submitted-outputs-in-matha-discreteb-continuous">
+                            30. 1. number of passenger in a busA. DiscreteB. Continuous2. price of a cellphoneA. DiscreteB. Continuous3. shoe sizeA. DiscreteB. Continuous4. number of submitted outputs in MathA. DiscreteB. Continuous5.  Score in a Long TestA. DiscreteB. Continuous​</h2><br />
+                        <p>Answer:</p><p>1.B </p><p>2.B</p><p>3.A</p><p>4.B</p><p>5.B</p><p></p><p></p><p>Step-by-step explanation:</p><p>Im not sure to my answers mark me brai liest correct me if im wrong</p><p></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/yJ9rzsSFPkg?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>math</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/traditional-filipino-children-s-games.html">Traditional Filipino Children s Games</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/it-s-more-fun-in-the-philippines-key-concepts.html">It s More Fun In The Philippines Key Concepts</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/hyperthermia-nursing-interventions-and-rationales.html">Hyperthermia Nursing Interventions And Rationales</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/marky-s-food-products.html">Marky s Food Products</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/cold-room-construction-cost.html">Cold Room Construction Cost</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ra-7653-summary.html">Ra 7653 Summary</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ivan-man-dy.html">Ivan Man Dy</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/dragon-city-secret-fire-dragon.html">Dragon City Secret Fire Dragon</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/kontemporaryong-isyu-pangkalusugan-halimbawa.html">Kontemporaryong Isyu Pangkalusugan Halimbawa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/similarities-of-chronological-review-and-methodological-review.html">Similarities Of Chronological Review And Methodological Review</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/contract-sample-philippines.html">Contract Sample Philippines</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/taylor-swift-you-belong-with-me-lyrics.html">Taylor Swift You Belong With Me Lyrics</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/pagtatanim-ng-petchay.html">Pagtatanim Ng Petchay</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/bakit-namatay-si-rizal.html">Bakit Namatay Si Rizal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/new-moon-original-book-cover.html">New Moon Original Book Cover</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/esr-test-ppt.html">Esr Test Ppt</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ista-2a-standard-pdf-download.html">Ista 2a Standard Pdf Download</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/predictor-criterion-model-conceptual-framework.html">Predictor Criterion Model Conceptual Framework</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/how-to-uninstall-visual-basic-6-0.html">How To Uninstall Visual Basic 6 0</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ow-sound-words.html">Ow Sound Words</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://topminded.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://topminded.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

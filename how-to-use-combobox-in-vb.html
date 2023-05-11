@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How To Use Combobox In Vb - QnA</title>
+    <meta name="description" content="How To Use Combobox In Vb, , , , , , , 0, Selected Index Combobox in Visual Basic VB .NET - YouTube, www.youtube.com, 1280 x 720, jpeg, , 20, how-to-use-combobox-in-vb, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="How To Use Combobox In Vb - QnA" />
+    <meta property="og:description" content="How To Use Combobox In Vb, , , , , , , 0, Selected Index Combobox in Visual Basic VB .NET - YouTube, www.youtube.com, 1280 x 720, jpeg, , 20, how-to-use-combobox-in-vb, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="How To Use Combobox In Vb - QnA" />
+    <meta name="twitter:description" content="How To Use Combobox In Vb, , , , , , , 0, Selected Index Combobox in Visual Basic VB .NET - YouTube, www.youtube.com, 1280 x 720, jpeg, , 20, how-to-use-combobox-in-vb, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://topminded.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://topminded.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://topminded.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://topminded.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://topminded.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://topminded.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://topminded.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://topminded.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">How To Use Combobox In Vb</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">aibreansiyue</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=How+To+Use+Combobox+In+Vb" alt="How To Use Combobox In Vb">
+                    </div>
+                    <p></p>
+                    <p>How to fill ComboBox using looping statements in C#?​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-to-fill-combobox-using-looping-statements-in-c%e2%80%8b">1.
+                                            How to fill ComboBox using looping statements in C#?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#can-the-method-selected-item-be-used-in-a-combobox%e2%80%8b">2.
+                                            can the method selected item be used in a combobox​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#can-you-make-a-summaryusing-listbox-and-combobox-%e2%80%8b">3.
+                                            Can you make a summary?Using listbox and combobox.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-can-you-modify-a-vb-control-to-fit-in-its-purpose-in-your-project%e2%80%8b">4.
+                                            how can you modify a vb control to fit in its purpose in your project?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#timbre-of-bamboo-instruments_____ill-make-it-brainliest-if-correct-dpa-help-please-d-vb%e2%80%8b">5.
+                                            timbre of bamboo instruments_____I'll make it brainliest if correct ;D(pa help please d- -vb)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-is-the-benefit-of-decision-making-to-you-as-a-computer-systems-servicingstudent-in-creating-vb-net-software%e2%80%8b">6.
+                                            What is the benefit of decision making to you as a computer systems servicingstudent in creating vb net software?​.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-assuming-that-any-skirt-can-be-paired-with-any-blouse-in-how-many-ways-can-anna-select-her-outfit-a-sd-sp-sb-rd-rp-rb-ld-lp-lb-vd-vp-vbb-sd-sp-sb-rd-rp-rbc-ld-lp-lb-vd-vp-vb-d-sd-sp-sb-rd-rp-rb-l">7.
+                                            1 Assuming that any skirt can be paired with any blouse in how many ways can Anna select her outfit. A. SD SP SB RD RP RB LD LP LB VD VP VBB.SD SP SB RD RP RBC.LD LP LB VD VP VB D. SD SP SB RD RP RB LD LP LB​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#which-of-the-following-vb-waste-materials-can-be-reduced%e2%80%8b">8.
+                                            which of the following VB waste materials can be reduced?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#7-vub-8-vb-us-9-v-b-10vobos%e2%80%8b">9.
+                                            7) VUB 8) (VB) US 9) V-B 10VOBOS​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-do-you-assign-values-to-variables-in-vb-programming-answer-and-cite-examples">10.
+                                            How do you assign values to variables in VB programming? Answer and cite examples </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#it-is-the-style-of-combobox-that-displays-the-listbox-and-edit-control%e2%80%8b">11.
+                                            It is the style of ComboBox that displays the ListBox and edit control​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#v-bvb-nmbhg-mji">12.
+                                            v-b[=
+vb-nm=
+bhg-mji=</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#this-is-the-name-of-our-button-if-you-change-the-name-property-vb-will-change-this-button-name-for-you-%e2%80%8b">13.
+                                            This is the name of our button. If you change the Name property, VB will change this button name for you.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-2-3-4-5-6-7-hv-vb-vb-vi-viib-57-7-1-to-7-4-points%e2%80%8b">14.
+                                            A 2 3 4 5 6 7 HV VB VB VI VIIB 57-7: 1 To 7 4 Points​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#describe-the-role-of-an-equal-sign-in-declaring-variablesidentify-ways-to-address-a-syntax-error-vb%e2%80%8b">15.
+                                            describe the role of an equal (=) sign in declaring variables?identify ways to address a syntax error vb​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#write-different-ways-how-to-customize-the-vb-toolbars-%e2%80%8b">16.
+                                            Write different ways how to customize the VB toolbars.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#plssss-answers-this-vb-asgusihs7audl%e2%80%8b">17.
+                                            Plssss answers this vb, asgusihs7audl​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#give-a-ways-to-address-a-syntax-error-in-vb%e2%80%8b">18.
+                                            Give a ways to address a syntax error in VB​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-are-the-parts-of-vb-net%e2%80%8b">19.
+                                            What are the parts of vb. Net​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#english-quarter1-module-7-various-reading-strategies-melc-use-the-appropriate-reading-strategies-scan-speed-reading-close-reading-intensive-meet-ones-purpose-cwzrc-vb-10-%e2%80%8b">20.
+                                            ENGLISH Quarter1-Module 7 Various Reading Strategies MELC: Use the appropriate reading strategies (scan speed reading, close reading, intensive meet one's purpose CWZRC-/VB-10 ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#give-the-profressional-development-of-ram-for-the-vb%e2%80%8b">21.
+                                            give the profressional development of RAM for the VB​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#similarities-between-combobox-and-checkedlistbox%e2%80%8b">22.
+                                            similarities between combobox and checkedlistbox​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-if-2v3-vb-then-b-is-equal-toa-36b-12c-9d-4">23.
+                                            1. If 2V3 = Vb, then b is equal to
+A. 36
+B.12
+C. 9
+D.4</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#create-a-windows-application-to-display-the-vb-mail-order-customer-table-from-the-vbmail-mdf-database-from-the-studentdata-folder-on-the-text-web-site-use-the-navigation-bar-to-move-from-record-to-re">24.
+                                            Create a windows application to display the vb mail order customer table from the vbmail.mdf database from the studentdata folder on the text web site. use the navigation bar to move from record to record.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-are-the-comparators-in-vb-statement%e2%80%8b">25.
+                                            What Are The Comparators in VB Statement​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#when-you-create-a-project-in-vb-your-starting-point-for-a-vb-net-application-is-the-__________">26.
+                                            When you create a project in VB, your starting point for a VB.NET application is the __________.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#how-can-you-value-the-importance-of-vb-in-the-field-of-programming%e2%80%8b">27.
+                                            how can you value the importance of VB in the field of programming?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-are-the-possible-applications-in-real-life-wherein-the-vb-syntax-can-be-utilized%e2%80%8b">28.
+                                            What are the possible applications in real-life wherein the VB Syntax can be utilized?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#solve-the-radical-equati1-vb-11-2%e2%80%8b">29.
+                                            Solve the Radical Equati1) Vb - 11 = 2​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#when-creating-a-project-in-vb-the-strting-point-for-the-application-is-________a-formb-interfacec-templated-control%e2%80%8b">30.
+                                            when creating a project in VB, the strting point for the application is ________?a. formb. interfacec. templated. control​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="how-to-fill-combobox-using-looping-statements-in-c%e2%80%8b">
+                            1. How to fill ComboBox using looping statements in C#?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>youtube.com/watch?v=au-5buEKT_k</p><p><strong>Explanation:</strong></p><p>﻿I hope this will help!</p><br />
+                                            <h2 class="ez-toc-section" id="can-the-method-selected-item-be-used-in-a-combobox%e2%80%8b">
+                            2. can the method selected item be used in a combobox​</h2><br />
+                        <p>When you set the SelectedItem property to an object, the ComboBox attempts to make that object the currently selected one in the list. If the object is found in the list, it is displayed in the edit portion of the ComboBox and the SelectedIndex property is set to the corresponding index. If the object does not exist in the list, the SelectedIndex property is left at its current value.</p><br />
+                                            <h2 class="ez-toc-section" id="can-you-make-a-summaryusing-listbox-and-combobox-%e2%80%8b">
+                            3. Can you make a summary?Using listbox and combobox.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>You can add a Form Control or an ActiveX Control combo box. ... Tip: The cell you choose will have a number associated with the item ...</p><br />
+                                            <h2 class="ez-toc-section" id="how-can-you-modify-a-vb-control-to-fit-in-its-purpose-in-your-project%e2%80%8b">
+                            4. how can you modify a vb control to fit in its purpose in your project?​</h2><br />
+                        Answer:From the VB main menu, click Project, then Add User Control. This gives you a form design environment almost identical to the one you use for building standard Windows applications. Add the components and code for your control and customize the properties you need.Explanation:Hope it helps!Correct me if I'm wrong!#LetStudy#KeepOnLearning<br />
+                                            <h2 class="ez-toc-section" id="timbre-of-bamboo-instruments_____ill-make-it-brainliest-if-correct-dpa-help-please-d-vb%e2%80%8b">
+                            5. timbre of bamboo instruments_____I'll make it brainliest if correct ;D(pa help please d- -vb)​</h2><br />
+                        <p>answer:</p><p>Traditional Philippine banda kawayan (bamboo bands) use a variety of bamboo musical instruments, including the marimba, angklung, panpipes and bumbong, as well as bamboo versions of western instruments, such as clarinets, saxophones, and tubas.</p><p></p><p>g8?</p><br />
+                                            <h2 class="ez-toc-section" id="what-is-the-benefit-of-decision-making-to-you-as-a-computer-systems-servicingstudent-in-creating-vb-net-software%e2%80%8b">
+                            6. What is the benefit of decision making to you as a computer systems servicingstudent in creating vb net software?​.</h2><br />
+                        <p><strong>Answer:</strong></p><p>Decision making is a valuable skill for computer systems servicing students to have when creating software in VB.Net. It allows the student to identify problems, weigh the pros and cons of different solutions, and make an informed decision about the best solution for the software. This helps ensure that the software created is effective, efficient, and meets the needs of the user. Decision making can also help to reduce development time and costs by helping to identify potential issues before they become bigger problems.</p><br />
+                                            <h2 class="ez-toc-section" id="1-assuming-that-any-skirt-can-be-paired-with-any-blouse-in-how-many-ways-can-anna-select-her-outfit-a-sd-sp-sb-rd-rp-rb-ld-lp-lb-vd-vp-vbb-sd-sp-sb-rd-rp-rbc-ld-lp-lb-vd-vp-vb-d-sd-sp-sb-rd-rp-rb-l">
+                            7. 1 Assuming that any skirt can be paired with any blouse in how many ways can Anna select her outfit. A. SD SP SB RD RP RB LD LP LB VD VP VBB.SD SP SB RD RP RBC.LD LP LB VD VP VB D. SD SP SB RD RP RB LD LP LB​</h2><br />
+                        <p><strong>Answer:</strong></p><p>a.SD SP SB RD RB LD LP LB VP VP</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="which-of-the-following-vb-waste-materials-can-be-reduced%e2%80%8b">
+                            8. which of the following VB waste materials can be reduced?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>plastics</p><p><strong>Explanation:</strong></p><p>because plastic can not be easilly decomposed and if we burn plastic it make bad pollution</p><br />
+                                            <h2 class="ez-toc-section" id="7-vub-8-vb-us-9-v-b-10vobos%e2%80%8b">
+                            9. 7) VUB 8) (VB) US 9) V-B 10VOBOS​</h2><br />
+                        <p><strong>Answer:</strong></p><p>math yan lodi??</p><p><strong>Step-by-step explanation:</strong></p><p>di maintindihan</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="how-do-you-assign-values-to-variables-in-vb-programming-answer-and-cite-examples">
+                            10. How do you assign values to variables in VB programming? Answer and cite examples </h2><br />
+                        <p><strong>Answer:</strong></p><p>To do so you would declare a variable with a name of your choice (such as interestRate) and specify the variable as an Integer type (since it will be storing a number). Having declared the variable you can assign a value to it and read that value anywhere in your application code.</p><p><strong>Explanation:</strong></p><p>You can assign a value to a routine variable in any of the following ways:
+</p><p>Use a LET statement.
+</p><p>Use a SELECT INTO statement.
+</p><p>Use a CALL statement with a procedure that has a RETURNING clause.
+</p><p>Use an EXECUTE PROCEDURE INTO or EXECUTE FUNCTION INTO statement.</p><br />
+                                            <h2 class="ez-toc-section" id="it-is-the-style-of-combobox-that-displays-the-listbox-and-edit-control%e2%80%8b">
+                            11. It is the style of ComboBox that displays the ListBox and edit control​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Combo Box Types and Styles</p><p></p><p>A combo box consists of a list and a selection field. The list presents the options that a user can select, and the selection field displays the current selection. If the selection field is an edit control, the user can enter information not available in the list; otherwise, the user can only select items in the list.</p><p></p><p>The common controls library includes three main styles of combo box, as shown in the following table.</p><p></p><p></p><p><strong>Explanation:</strong></p><p>I hope this help :)</p><p>I need the points sorry. </p><p>but the right ans is </p><p>from eunna(?)</p><br />
+                                            <h2 class="ez-toc-section" id="v-bvb-nmbhg-mji">
+                            12. v-b[=
+vb-nm=
+bhg-mji=</h2><br />
+                        <p><strong>Answer:</strong></p><p>need ko den answer</p><p></p><p><strong>Step-by-step explanation:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="this-is-the-name-of-our-button-if-you-change-the-name-property-vb-will-change-this-button-name-for-you-%e2%80%8b">
+                            13. This is the name of our button. If you change the Name property, VB will change this button name for you.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Owners</p><p><strong>Explanation:</strong></p><p>hope it help u pa brainlest pi</p><br />
+                                            <h2 class="ez-toc-section" id="a-2-3-4-5-6-7-hv-vb-vb-vi-viib-57-7-1-to-7-4-points%e2%80%8b">
+                            14. A 2 3 4 5 6 7 HV VB VB VI VIIB 57-7: 1 To 7 4 Points​</h2><br />
+                        <p><strong>Answer:</strong></p><p>14+13 eqauls Thanks to Points 234567</p><br />
+                                            <h2 class="ez-toc-section" id="describe-the-role-of-an-equal-sign-in-declaring-variablesidentify-ways-to-address-a-syntax-error-vb%e2%80%8b">
+                            15. describe the role of an equal (=) sign in declaring variables?identify ways to address a syntax error vb​</h2><br />
+                        <p><strong>Answer:</strong></p><p>In most computer languages, equals sign (=) denotes an operation of assignment, which means making a value of the left part equal to the value of the right part, where parts are separated by the equals sign.</p><p></p><p>Equals sign repeated twice (==) is an operation that compares left part with right part, answering the question of whether these parts are equal or not.</p><p></p><p>There are languages that use different combination of symbols for the above operations. The reason of using two equal signs for comparison and one for assignment is that programmers use assignment significantly more often than comparison.</p><p><strong>Explanation:</strong></p><p>Hope it helps.</p><p><strong>Answer:</strong></p><p>Define Variables In VBA: How To Declare Variables And Assign ... - Power Spreadsheets</p><p>Learn now how to declare variables, determine their scope and lifetime, and assign ... In some of these cases, VBA can identify certain errors while you're working on the code. ... In other words, the equal sign (=) is the assignment operator.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="write-different-ways-how-to-customize-the-vb-toolbars-%e2%80%8b">
+                            16. Write different ways how to customize the VB toolbars.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>On the menu bar, choose Tools &gt; Customize. The Customize dialog box opens. On the Toolbar tab, perform one of the following sets of steps: To add a toolbar, choose the New button, specify a name for the toolbar that you want to add, and then choose the OK button.</p><br />
+                                            <h2 class="ez-toc-section" id="plssss-answers-this-vb-asgusihs7audl%e2%80%8b">
+                            17. Plssss answers this vb, asgusihs7audl​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1. Painting</p><p>2. Digital Painting</p><p>3. Graphic Design</p><p>4. Logo</p><p>5. Shape</p><p>6. Texture, Harmony</p><p>7. GIMP</p><p>8. Logo</p><p>9. Website</p><p>10.Graphic Design</p><br />
+                                            <h2 class="ez-toc-section" id="give-a-ways-to-address-a-syntax-error-in-vb%e2%80%8b">
+                            18. Give a ways to address a syntax error in VB​</h2><br />
+                        <p><strong>Answer:</strong></p><p>If you encounter a syntax error, you often can solve the problem by using Visual Basic online Help to learn more about the error message, and you can fix the mistake by paying close attention to the exact syntax of the functions, objects, methods, and properties that you have used.</p><p><strong>Explanation:</strong></p><p><strong>follow po thank you</strong></p><p><strong>follow po thank youbrainliest Thank you po</strong></p><br />
+                                            <h2 class="ez-toc-section" id="what-are-the-parts-of-vb-net%e2%80%8b">
+                            19. What are the parts of vb. Net​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Parts of a VB.NET Integrated Development Environment (IDE)
+</p><p>File Menu</p><p>Tool bar</p><p>Status Bar</p><p>Solutions explorer</p><p>Tool box</p><p><strong>Explanation:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="english-quarter1-module-7-various-reading-strategies-melc-use-the-appropriate-reading-strategies-scan-speed-reading-close-reading-intensive-meet-ones-purpose-cwzrc-vb-10-%e2%80%8b">
+                            20. ENGLISH Quarter1-Module 7 Various Reading Strategies MELC: Use the appropriate reading strategies (scan speed reading, close reading, intensive meet one's purpose CWZRC-/VB-10 ​</h2><br />
+                        <p><strong>Answer:</strong></p><p>You will probably be aware that you are already skilled in using different reading strategies for different purposes in your daily life. You may feel less confident about doing this in your academic studies: maybe you read everything too thoroughly. Or perhaps you have become too confident and have discovered from the feedback from your tutor or supervisor that you do not read key texts thoroughly enough. It is important to match your reading strategy to the reading purpose.
+</p><p>
+</p><p>Consider whether you ever read for these purposes and what reading strategy you tend to use:
+</p><p>
+</p><p>
+</p><p>Reading purpose
+</p><p>
+</p><p>Example from daily life
+</p><p>
+</p><p>Example from academic work
+</p><p>
+</p><p>  </p><p>
+</p><p>  </p><p>
+</p><p>  </p><p>
+</p><p>1.  look for specific information when you know how to locate it by following a procedure
+</p><p>
+</p><p>  </p><p>
+</p><p>·    look up the meaning of a word in a dictionary
+</p><p>
+</p><p>·    look for a particular reference in a reference list of an article
+</p><p>
+</p><p>2.  search for specific information that may be somewhere a text
+</p><p>
+</p><p>  </p><p>
+</p><p>·    check particular details of an incident reported in a newspaper article
+</p><p>
+</p><p>  </p><p>
+</p><p>·    check what research methods the authors of a research report article used
+</p><p>
+</p><p>3.  look quickly through a text to see what it is about before deciding to read it
+</p><p>
+</p><p>  </p><p>
+</p><p>·    see whether a magazine article will be worth reading
+</p><p>
+</p><p>·    see whether an academic article is going to be relevant for your task
+</p><p>
+</p><p>4.  read quickly through a text to gain an overview of its content
+</p><p>
+</p><p>  </p><p>
+</p><p>·    read through a new recipe
+</p><p>
+</p><p>·    read a front-line text which is relevant but not central to your task
+</p><p>
+</p><p>  </p><p>
+</p><p>5.  read through an easy text where it is not important to remember all that you’ve read
+</p><p>
+</p><p>  </p><p>
+</p><p>·    read a novel
+</p><p>
+</p><p>·    read a textbook chapter to revise a subject that you know well
+</p><p>
+</p><p>6.  read a text thoroughly to understand and remember what you’ve read
+</p><p>
+</p><p>·    read the instructions for booking and paying for a journey on-line
+</p><p>
+</p><p>·    read a front-line text whose content is central to your task
+</p><p>
+</p><p>  </p><p>
+</p><p>  </p><p>
+</p><p>  </p><p>
+</p><p>  </p><p>
+</p><p>You may find it useful to think in terms of three main reading strategies:
+</p><p>
+</p><p>·    scanning - looking through a text to find keywords and phrases that are likely to indicate the specific information that you are seeking, then reading just this piece of the text (situations 1 and 2 above)
+</p><p>
+</p><p>·    skimming - reading just those parts of a text that are most likely to indicate what the authors are talking about at different points in order to gain an overview of the content (situations 3 and 4)
+</p><p>
+</p><p>·    intensive reading - reading through every word of a text from beginning to end (situations 5 and 6)
+</p><p>
+</p><p>For many reading purposes in academic work you may have noticed that you use more than one strategy in sequence. For a particular text that turns out to be centrally important for your reading purpose, the sequence might be:
+</p><p>
+</p><p>·    scan the title and abstract to see whether the text is likely to be at all relevant
+</p><p>
+</p><p>·    scan through parts of the content to see whether particular details in the text confirm that it will be relevant
+</p><p>
+</p><p>·    skim the text to gain an overview of its content and confirm how centrally relevant it is
+</p><p>
+</p><p>·    intensively read the whole text since it clearly is centrally relevant, so as to understand and evaluate its content in depth
+</p><p>
+</p><p>A secret of efficient reading, that will soon become automatic if you consciously do it for every text, is to check how well the reading strategy you are going to use next fits your reading purpose.
+</p><p>
+</p><p>·    Check your reading purpose and then use scanning, skimming or intensive reading - either on their own or in sequence - as required to achieve this purpose.
+</p><p>
+</p><p>There are many textbooks and websites that offer general guidance on reading strategies. Some include practical exercises to help you improve your skills. If search with your website browser using keywords such as ‘skim read’ or ‘scan skim’ will lead you to plenty of sites.
+</p><p>
+</p><p>  </p><p>
+</p><p> </p><p><strong>Explanation:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="give-the-profressional-development-of-ram-for-the-vb%e2%80%8b">
+                            21. give the profressional development of RAM for the VB​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Professional development is learning to earn or maintain professional credentials such as academic degrees to formal coursework, attending conferences, and informal learning opportunities situated in practice. It has been described as intensive and collaborative, ideally incorporating an evaluative stage.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="similarities-between-combobox-and-checkedlistbox%e2%80%8b">
+                            22. similarities between combobox and checkedlistbox​</h2><br />
+                        <p><strong>Answer:</strong></p><p>List boxes and Combo boxes are used when the user needs to select a value from a set of many values. The difference between a List box and a Combo box is that a List box is simply a list of items, while a Combo box is a combination of a List box and an Edit box.</p><p><strong>Explanation:</strong></p>#carryonlearninghope it helps :)<br />
+                                            <h2 class="ez-toc-section" id="1-if-2v3-vb-then-b-is-equal-toa-36b-12c-9d-4">
+                            23. 1. If 2V3 = Vb, then b is equal to
+A. 36
+B.12
+C. 9
+D.4</h2><br />
+                        <p></p><p>leter B.12   satingiN KO okey ba</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="create-a-windows-application-to-display-the-vb-mail-order-customer-table-from-the-vbmail-mdf-database-from-the-studentdata-folder-on-the-text-web-site-use-the-navigation-bar-to-move-from-record-to-re">
+                            24. Create a windows application to display the vb mail order customer table from the vbmail.mdf database from the studentdata folder on the text web site. use the navigation bar to move from record to record.</h2><br />
+                        <p> </p><p>It's just right click on the table in your Database Schema in Server Explorer then choose Show Table Data.</p><p></p><p>Create a project</p><p>Open Visual Studio 2017.</p><p>From the top menu bar, choose File &gt; New &gt; Project.</p><p>In the New Project dialog box in the left pane, expand Visual Basic, and then choose Windows Desktop. In the middle pane, choose Windows Forms App (. NET Framework). Then name the file HelloWorld .</p><p></p><p>Go to-&gt;Solution explorer-&gt;right click on your application-&gt;Add-&gt;New Item.</p><p>Go to-&gt;Data-&gt;Local dataBase-&gt;Click on Add button.</p><p>Then go to-&gt;view menu-&gt;Server Explorer. Here you can see the local database which is created by you.</p><p></p><p>An important part of Visual Basic is the ability to create Windows Forms applications that run locally on users' computers. You can use Visual Studio to create the application and user interface using Windows Forms. A Windows Forms application is built on classes from the System.</p><p></p><p> </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="what-are-the-comparators-in-vb-statement%e2%80%8b">
+                            25. What Are The Comparators in VB Statement​</h2><br />
+                        <p><strong>Answer:</strong></p><p>look at the magic answer key</p><br />
+                                            <h2 class="ez-toc-section" id="when-you-create-a-project-in-vb-your-starting-point-for-a-vb-net-application-is-the-__________">
+                            26. When you create a project in VB, your starting point for a VB.NET application is the __________.</h2><br />
+                        <p><strong>Answer:</strong></p><p>Main. That's the answer </p><p><strong>Explanation:</strong></p><p>Hope it helps </p><br />
+                                            <h2 class="ez-toc-section" id="how-can-you-value-the-importance-of-vb-in-the-field-of-programming%e2%80%8b">
+                            27. how can you value the importance of VB in the field of programming?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>part of a VB.NET integrated development environment (IDE)</p><p></p><p>FILE MENU </p><p>TOOL BAR </p><p>STATUS BAR </p><p>SOLUTIONS EXPLORE </p><p>TOOL BOX</p><br />
+                                            <h2 class="ez-toc-section" id="what-are-the-possible-applications-in-real-life-wherein-the-vb-syntax-can-be-utilized%e2%80%8b">
+                            28. What are the possible applications in real-life wherein the VB Syntax can be utilized?​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Visual Basic for Applications runs as an internal programming language in Microsoft Office (MS Office, Office) applications such as Access, Excel, PowerPoint, Publisher, Word, and Visio.</p><br />
+                                            <h2 class="ez-toc-section" id="solve-the-radical-equati1-vb-11-2%e2%80%8b">
+                            29. Solve the Radical Equati1) Vb - 11 = 2​</h2><br />
+                        <p><strong>Answer:</strong></p><p>v = 13/b</p><p>b = 13/v</p><p><strong>Step-by-step explanation:</strong></p><p>sana makatulong pasensya na God bless!</p><br />
+                                            <h2 class="ez-toc-section" id="when-creating-a-project-in-vb-the-strting-point-for-the-application-is-________a-formb-interfacec-templated-control%e2%80%8b">
+                            30. when creating a project in VB, the strting point for the application is ________?a. formb. interfacec. templated. control​</h2><br />
+                        <p><strong>Answer: C</strong></p><p></p><p><strong>Explanation: im not sure tho :&gt;</strong></p><p></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/K84jhEQvm-g?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>computer_science</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/murphy-s-law-and-other-reasons-why-things-go-wrong-pdf.html">Murphy s Law And Other Reasons Why Things Go Wrong Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/vs-gender-tagalog.html">Vs Gender Tagalog</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ano-ang-programa.html">Ano Ang Programa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/tesco-singapore.html">Tesco Singapore</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/charismatic-leaders-in-the-philippines.html">Charismatic Leaders In The Philippines</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/pumili-ng-bahaging-naibigan-sa-akdang-binasa-ipaliwanag-ito.html">Pumili Ng Bahaging Naibigan Sa Akdang Binasa Ipaliwanag Ito</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ob-bag.html">Ob Bag</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/astra-lifetime.html">Astra Lifetime</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/kindergarten-age-philippines.html">Kindergarten Age Philippines</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/phil-iri-group-screening-test.html">Phil Iri Group Screening Test</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/kultura-at-tradisyon-ng-africa.html">Kultura At Tradisyon Ng Africa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/proyekto-para-sa-kabataan.html">Proyekto Para Sa Kabataan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/coding-and-testing-are-done-in-a.html">Coding And Testing Are Done In A</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/bakit-huling-hiling-hinaing-at-halinghing-ang-pamagat.html">Bakit Huling Hiling Hinaing At Halinghing Ang Pamagat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/protaper-logo.html">Protaper Logo</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/larva-stick-insect.html">Larva Stick Insect</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/metropolitan-is-what-contemporary-art-form-in-the-philippines.html">Metropolitan Is What Contemporary Art Form In The Philippines</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/ra-5490.html">Ra 5490</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/halimbawa-ng-dulang-pantanghalan.html">Halimbawa Ng Dulang Pantanghalan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://topminded.github.io/paano-gumawa-ng-blog-sa-facebook.html">Paano Gumawa Ng Blog Sa Facebook</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://topminded.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://topminded.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://topminded.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
